@@ -2,15 +2,22 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-12T20:56:54 IST" name="Default suite" finished-at="2024-10-12T20:58:57 IST" duration-ms="123700">
+  <suite started-at="2024-10-14T18:44:08 IST" name="Suite" finished-at="2024-10-14T18:45:38 IST" duration-ms="90169">
     <groups>
     </groups>
-    <test started-at="2024-10-12T20:56:54 IST" name="Default test" finished-at="2024-10-12T20:58:57 IST" duration-ms="123700">
+    <test started-at="2024-10-14T18:44:08 IST" name="Test" finished-at="2024-10-14T18:45:38 IST" duration-ms="90169">
       <class name="com.amazon.testCase.TC_LoginTest_001">
-        <test-method is-config="true" signature="set()[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@32714f]" started-at="2024-10-12T20:56:54 IST" name="set" finished-at="2024-10-12T20:58:57 IST" duration-ms="123290" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@e026d3]" started-at="2024-10-14T18:44:15 IST" name="setup" finished-at="2024-10-14T18:45:37 IST" duration-ms="81797" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: unknown error: Could not read in devtools port number 
+              <![CDATA[Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist 
 Host info: host: 'BALAJI', ip: '192.168.42.182'
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
@@ -18,7 +25,7 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: Could not read in devtools port number 
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist 
 Host info: host: 'BALAJI', ip: '192.168.42.182'
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
@@ -37,7 +44,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.amazon.testCase.baseClass.set(baseClass.java:76)
+at com.amazon.testCase.baseClass.setup(baseClass.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -69,11 +76,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- set -->
-        <test-method signature="loginTest()[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@32714f]" started-at="2024-10-12T20:58:57 IST" name="loginTest" finished-at="2024-10-12T20:58:57 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@e026d3]" started-at="2024-10-14T18:45:38 IST" name="loginTest" finished-at="2024-10-14T18:45:38 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: unknown error: Could not read in devtools port number 
+              <![CDATA[Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist 
 Host info: host: 'BALAJI', ip: '192.168.42.182'
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
@@ -81,7 +88,7 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: Could not read in devtools port number 
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist 
 Host info: host: 'BALAJI', ip: '192.168.42.182'
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
@@ -100,7 +107,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.amazon.testCase.baseClass.set(baseClass.java:76)
+at com.amazon.testCase.baseClass.setup(baseClass.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,11 +140,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@32714f]" started-at="2024-10-12T20:58:57 IST" name="tearDown" finished-at="2024-10-12T20:58:57 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@e026d3]" started-at="2024-10-14T18:45:38 IST" name="tearDown" finished-at="2024-10-14T18:45:38 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.amazon.testCase.TC_LoginTest_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

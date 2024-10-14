@@ -1,6 +1,5 @@
 package com.amazon.testCase;
 
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -14,10 +13,10 @@ public class TC_loginTestDDT_002 extends baseClass {
     @Test(dataProvider="LoginData")
 	public void loginDDT(String username,String pass) {
 
-		  driver.get(url);
+		 driver.get(url);
 		 homePage hm=new homePage(driver);
 	      loginPage lp=new loginPage(driver);
-	      mouseHover(hm.accountList);
+	      elementToClickableAndHover(hm.accountList);
 			lp.clickOnSiginBtn();
 			logger.info("sigin button is clicked");
 			try {
@@ -26,7 +25,7 @@ public class TC_loginTestDDT_002 extends baseClass {
 				lp.setPassword(password);
 				 logger.info("sigin submit button is clicked");
 			    lp.clickOnSiginSubmit();
-			     mouseHover(hm.accountList);
+			     elementToClickableAndHover(hm.accountList);
 			     
 				if(lp.signoutBtn.getText().equals("Sign Out")) {
 					Assert.assertTrue(true);
@@ -42,8 +41,8 @@ public class TC_loginTestDDT_002 extends baseClass {
 				
 			} catch (Exception e) {
 				// TODO: handle exception
-				boolean uname = visiblityOfElement(lp.usenameInCorrect);
-				boolean password=visiblityOfElement(lp.passwordInCorrect);
+				boolean uname = elementIsVisible_Or_Not(lp.usenameInCorrect);
+				boolean password=elementIsVisible_Or_Not(lp.passwordInCorrect);
 				if(uname) {
 					logger.warn("login is faild for wrong user name");
 					Assert.assertTrue(false);

@@ -57,11 +57,6 @@ public void setup(String browser) {
 	
 }
 
-public void mouseHover(WebElement ele) {
-	Actions actions=new Actions(driver);
-	actions.moveToElement(ele).perform();
-	
-}
 
 public void set() {
 	
@@ -85,21 +80,40 @@ public void tearDown() {
 	driver.quit();
 }
 
-public void elementToBeClickable(WebElement ele) {
-	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
-	wait.until(ExpectedConditions.elementToBeClickable(ele));
+public void elementToClickableAndHover(WebElement ele) {
+	try
+	{
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.elementToBeClickable(ele));
+		Actions actions=new Actions(driver);
+		actions.moveToElement(ele).perform();
+	}catch (Exception e) {
+		e.printStackTrace();
+	}
+	
 }
-public boolean visiblityOfElement(WebElement ele) {
-	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+public boolean elementIsVisible_Or_Not(WebElement ele) {
+	
 	try {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOf(ele));
 		return true;
 	} catch (Exception e) {
-		System.out.println("timouts element is not thire: "+e.getMessage());
 		return false;
 	}
 	
 
+}
+
+public void VisibleOfElementAndClick(WebElement ele) {
+	
+	try {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.elementToBeClickable(ele)).click();
+		
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
 }
 public void captureScreen(WebDriver driver,String SName) {
 	

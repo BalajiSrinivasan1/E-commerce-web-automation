@@ -10,19 +10,18 @@ public class TC_LoginTest_001 extends baseClass {
 	
 	@Test
 	public void loginTest() {
-		
+		driver.get(url);
 		logger.info("URL is opened....");
 		loginPage lp=new loginPage(driver);
 		homePage hm=new homePage(driver);
-		mouseHover(hm.accountList);
+		elementToClickableAndHover(hm.accountList);
 		lp.clickOnSiginBtn();
-		visiblityOfElement(lp.emailTextField);
 		lp.setUserName(username);
 		lp.clickOnContinue();
 		lp.setPassword(password);
 	    lp.clickOnSiginSubmit();;
 	    logger.info("signin button is clicked");
-	    mouseHover(hm.accountList);
+	    elementToClickableAndHover(hm.accountList);
         System.out.println(lp.signoutBtn.getText());
 		if(lp.signoutBtn.getText().equals("Sign Out")) {
 			Assert.assertTrue(true);
