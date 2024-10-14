@@ -41,6 +41,9 @@ public Logger logger;
 public void setup(String browser) {
 	ChromeOptions opt=new ChromeOptions();
 	opt.addArguments("--incognito");
+         opt.addArguments("--headless");
+	opt.addArguments("--disable-gpu");
+	opt.addArguments("--no-sandbox");
 	logger=Logger.getLogger("E-CommerceAutomationProject");
 	DOMConfigurator.configure("log4j.xml");
 	if(browser.equals("chrome")) {

@@ -51,6 +51,5 @@ public class homePage {
 	@FindBy(id="nav-link-accountList")
 	public  WebElement accountList;
 	
-	
 
 }
