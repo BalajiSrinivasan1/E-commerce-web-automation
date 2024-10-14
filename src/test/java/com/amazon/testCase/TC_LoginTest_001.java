@@ -15,12 +15,16 @@ public class TC_LoginTest_001 extends baseClass {
 		loginPage lp=new loginPage(driver);
 		homePage hm=new homePage(driver);
 		elementToClickableAndHover(hm.accountList);
+                logger.info("account button is hovered");
 		lp.clickOnSiginBtn();
+                logger.info("sigin button clicked");
 		lp.setUserName(username);
+                 logger.info("user name is entered");
 		lp.clickOnContinue();
 		lp.setPassword(password);
+                logger.info("password is entered");
 	    lp.clickOnSiginSubmit();;
-	    logger.info("signin button is clicked");
+	    logger.info("signin submit button is clicked");
 	    elementToClickableAndHover(hm.accountList);
         System.out.println(lp.signoutBtn.getText());
 		if(lp.signoutBtn.getText().equals("Sign Out")) {

@@ -16,15 +16,19 @@ public class TC_loginTestDDT_002 extends baseClass {
 		 driver.get(url);
 		 homePage hm=new homePage(driver);
 	      loginPage lp=new loginPage(driver);
+               logger.info("account is hoverd");
 	      elementToClickableAndHover(hm.accountList);
 			lp.clickOnSiginBtn();
 			logger.info("sigin button is clicked");
 			try {
+               
 				lp.setUserName(username);
+                               logger.info("user name is entered");
 				lp.clickOnContinue();
 				lp.setPassword(password);
-				 logger.info("sigin submit button is clicked");
+                                  logger.info("password is entered");
 			    lp.clickOnSiginSubmit();
+                        logger.info("sigin submit button is clicked");
 			     elementToClickableAndHover(hm.accountList);
 			     
 				if(lp.signoutBtn.getText().equals("Sign Out")) {
