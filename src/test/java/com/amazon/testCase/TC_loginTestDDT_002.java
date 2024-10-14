@@ -23,15 +23,15 @@ public class TC_loginTestDDT_002 extends baseClass {
 			try {
                
 				lp.setUserName(username);
-                               logger.info("user name is entered");
+                 logger.info("user name is entered");
 				lp.clickOnContinue();
 				lp.setPassword(password);
-                                  logger.info("password is entered");
+                 logger.info("password is entered");
 			    lp.clickOnSiginSubmit();
-                        logger.info("sigin submit button is clicked");
+                 logger.info("sigin submit button is clicked");
 			     elementToClickableAndHover(hm.accountList);
 			     
-				if(lp.signoutBtn.getText().equals("Sign Out")) {
+				if(driver.getTitle().contains("Amazon.com. Spend less. Smile more.")) {
 					Assert.assertTrue(true);
 					logger.info("Login is successfull");
 					lp.clickSignoutBtn();

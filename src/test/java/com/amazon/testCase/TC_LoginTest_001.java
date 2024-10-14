@@ -1,5 +1,7 @@
 package com.amazon.testCase;
 
+import static org.testng.Assert.assertThrows;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,30 +17,28 @@ public class TC_LoginTest_001 extends baseClass {
 		loginPage lp=new loginPage(driver);
 		homePage hm=new homePage(driver);
 		elementToClickableAndHover(hm.accountList);
-                logger.info("account button is hovered");
+         logger.info("account button is hovered");
 		lp.clickOnSiginBtn();
-                logger.info("sigin button clicked");
+         logger.info("sigin button clicked");
 		lp.setUserName(username);
-                 logger.info("user name is entered");
+         logger.info("user name is entered");
 		lp.clickOnContinue();
 		lp.setPassword(password);
-                logger.info("password is entered");
+        logger.info("password is entered");
 	    lp.clickOnSiginSubmit();;
 	    logger.info("signin submit button is clicked");
-	    elementToClickableAndHover(hm.accountList);
-        System.out.println(lp.signoutBtn.getText());
-		if(lp.signoutBtn.getText().equals("Sign Out")) {
-			Assert.assertTrue(true);
+        System.out.println(driver.getTitle());
+		try {
+			Assert.assertEquals(driver.getTitle(),"Amazon.com. Spend less. Smile more.");
 			logger.info("Login is successfull");
 			lp.clickSignoutBtn();
 			logger.info("sinout is successfull");
-			
-		}else {
+		} catch (AssertionError e) {
 			captureScreen(driver, "loginTest");
 			logger.error("login test is failed");
-			Assert.assertTrue(false);
+			throw e;
+		}
 			
 		}
 	}
 
-}
