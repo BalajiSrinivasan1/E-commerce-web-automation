@@ -39,7 +39,6 @@ public Logger logger;
 @Parameters("browser")
 @BeforeClass
 public void setup(String browser) {
-	ChromeOptions opt=new ChromeOptions();
 	logger=Logger.getLogger("E-CommerceAutomationProject");
 	DOMConfigurator.configure("log4j.xml");
 	if(browser.equals("chrome")) {

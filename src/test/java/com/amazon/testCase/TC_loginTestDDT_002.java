@@ -29,7 +29,7 @@ public class TC_loginTestDDT_002 extends baseClass {
                  logger.info("password is entered");
 			    lp.clickOnSiginSubmit();
                  logger.info("sigin submit button is clicked");
-			     elementToClickableAndHover(hm.accountList);
+			     elementToVisibleAndHover(hm.accountList);
 			     
 				if(driver.getTitle().contains("Amazon.com. Spend less. Smile more.")) {
 					Assert.assertTrue(true);
@@ -44,7 +44,7 @@ public class TC_loginTestDDT_002 extends baseClass {
 				}
 				
 			} catch (Exception e) {
-				// TODO: handle exception
+				// TODO: handle exceptions
 				boolean uname = elementIsVisible_Or_Not(lp.usenameInCorrect);
 				boolean password=elementIsVisible_Or_Not(lp.passwordInCorrect);
 				if(uname) {
