@@ -40,10 +40,6 @@ public Logger logger;
 @BeforeClass
 public void setup(String browser) {
 	ChromeOptions opt=new ChromeOptions();
-	opt.addArguments("--incognito");
-         opt.addArguments("--headless");
-	opt.addArguments("--disable-gpu");
-	opt.addArguments("--no-sandbox");
 	logger=Logger.getLogger("E-CommerceAutomationProject");
 	DOMConfigurator.configure("log4j.xml");
 	if(browser.equals("chrome")) {
@@ -83,10 +79,10 @@ public void tearDown() {
 	driver.quit();
 }
 
-public void elementToClickableAndHover(WebElement ele) {
+public void elementToVisibleAndHover(WebElement ele) {
 	try
 	{
-		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(35));
 		wait.until(ExpectedConditions.elementToBeClickable(ele));
 		Actions actions=new Actions(driver);
 		actions.moveToElement(ele).perform();

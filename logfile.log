@@ -224,3 +224,14 @@
 2024-10-14 21:09:13,449 INFO  [E-CommerceAutomationProject] - password is entered
 2024-10-14 21:09:13,651 INFO  [E-CommerceAutomationProject] - signin submit button is clicked
 2024-10-14 21:10:47,261 ERROR [E-CommerceAutomationProject] - login test is failed
+2024-10-15 17:28:28,972 INFO  [E-CommerceAutomationProject] - URL is opened....
+2024-10-15 17:28:31,441 INFO  [E-CommerceAutomationProject] - account button is hovered
+2024-10-15 17:28:39,759 INFO  [E-CommerceAutomationProject] - sigin button clicked
+2024-10-15 17:28:40,683 INFO  [E-CommerceAutomationProject] - user name is entered
+2024-10-15 17:28:44,246 INFO  [E-CommerceAutomationProject] - password is entered
+2024-10-15 17:28:44,542 INFO  [E-CommerceAutomationProject] - signin submit button is clicked
+2024-10-15 17:29:06,926 ERROR [E-CommerceAutomationProject] - login test is failed
+2024-10-15 17:39:16,000 INFO  [E-CommerceAutomationProject] - URL is opened....
+2024-10-15 17:39:18,473 INFO  [E-CommerceAutomationProject] - account button is hovered
+2024-10-15 17:39:29,123 INFO  [E-CommerceAutomationProject] - sigin button clicked
+2024-10-15 17:39:30,905 INFO  [E-CommerceAutomationProject] - user name is entered

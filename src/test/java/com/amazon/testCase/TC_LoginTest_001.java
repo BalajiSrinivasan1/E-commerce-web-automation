@@ -16,7 +16,7 @@ public class TC_LoginTest_001 extends baseClass {
 		logger.info("URL is opened....");
 		loginPage lp=new loginPage(driver);
 		homePage hm=new homePage(driver);
-		elementToClickableAndHover(hm.accountList);
+		elementToVisibleAndHover(hm.accountList);
          logger.info("account button is hovered");
 		lp.clickOnSiginBtn();
          logger.info("sigin button clicked");
