@@ -43,7 +43,7 @@ public void setup(String browser) {
 	DOMConfigurator.configure("log4j.xml");
 	if(browser.equals("chrome")) {
 	WebDriverManager.chromedriver().setup();
-	driver=new ChromeDriver(opt);
+	driver=new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
 	}else if(browser.equals("firefox")) {
