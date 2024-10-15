@@ -17,7 +17,7 @@ public class TC_loginTestDDT_002 extends baseClass {
 		 homePage hm=new homePage(driver);
 	      loginPage lp=new loginPage(driver);
                logger.info("account is hoverd");
-	      elementToClickableAndHover(hm.accountList);
+	      elementToVisibleAndHover(hm.accountList);
 			lp.clickOnSiginBtn();
 			logger.info("sigin button is clicked");
 			try {
