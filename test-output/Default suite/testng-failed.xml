@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.testCase.TC_LoginTest_001">
+      <class name="com.opencart.testCase.TC_002_Login">
         <methods>
-          <include name="setup"/>
+          <include name="test_Login"/>
+          <include name="set"/>
           <include name="tearDown"/>
-          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.amazon.testCase.TC_LoginTest_001 -->
+      </class> <!-- com.opencart.testCase.TC_002_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

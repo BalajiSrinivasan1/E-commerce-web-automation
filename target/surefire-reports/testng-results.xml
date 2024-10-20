@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-15T18:16:53 IST" name="Suite" finished-at="2024-10-15T18:21:16 IST" duration-ms="263144">
+  <suite started-at="2024-10-20T15:51:27 IST" name="Suite" finished-at="2024-10-20T15:52:52 IST" duration-ms="84829">
     <groups>
+      <group name="sanity">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" name="test_Login" class="com.opencart.testCase.TC_002_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" name="test_Login" class="com.opencart.testCase.TC_002_Login"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2024-10-15T18:16:53 IST" name="Test" finished-at="2024-10-15T18:21:16 IST" duration-ms="263144">
-      <class name="com.amazon.testCase.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@18a5e20]" started-at="2024-10-15T18:16:54 IST" name="setup" finished-at="2024-10-15T18:17:39 IST" duration-ms="45067" status="PASS">
+    <test started-at="2024-10-20T15:51:27 IST" name="Test" finished-at="2024-10-20T15:52:52 IST" duration-ms="84829">
+      <class name="com.opencart.testCase.TC_002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" started-at="2024-10-20T15:51:27 IST" name="setup" finished-at="2024-10-20T15:51:40 IST" duration-ms="12565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,63 +24,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@18a5e20]" started-at="2024-10-15T18:17:39 IST" name="loginTest" finished-at="2024-10-15T18:21:11 IST" duration-ms="211666" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Amazon.com. Spend less. Smile more.] but found [Amazon Sign-In]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Amazon.com. Spend less. Smile more.] but found [Amazon Sign-In]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.amazon.testCase.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" started-at="2024-10-20T15:51:40 IST" name="test_Login" finished-at="2024-10-20T15:52:51 IST" duration-ms="70833" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testCase.TC_LoginTest_001@18a5e20]" started-at="2024-10-15T18:21:11 IST" name="tearDown" finished-at="2024-10-15T18:21:16 IST" duration-ms="4740" status="PASS">
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" started-at="2024-10-20T15:52:52 IST" name="tearDown" finished-at="2024-10-20T15:52:52 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.amazon.testCase.TC_LoginTest_001 -->
+      </class> <!-- com.opencart.testCase.TC_002_Login -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
