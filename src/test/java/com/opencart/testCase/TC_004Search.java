@@ -3,11 +3,9 @@ package com.opencart.testCase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pageObjects.AccountRegistrationPage;
-import pageObjects.HomePage;
-import pageObjects.LoginPage;
-import pageObjects.SearchPage;
-import testBase.BaseClass;
+import com.opencart.pageObject.HomePage;
+import com.opencart.pageObject.SearchPage;
+
 
 @Test
 public class TC_004Search extends BaseClass
@@ -20,7 +18,7 @@ public class TC_004Search extends BaseClass
 		try
 		{
 			
- 		   driver.get(rb.getString("appURL"));
+ 		   driver.get(url);
 		   HomePage hp=new HomePage(driver);
 		   logger.info("Home Page Displayed ");
 		
@@ -30,31 +28,32 @@ public class TC_004Search extends BaseClass
 		
 		 //  sp.searchtxt("iPhoness");
 		   sp.searchtxt("iMac");
-		    Thread.sleep(2000);
+		  
 		     logger.info("Enter any Product"); 
 		
 		    sp.searchbutton();
-		    Thread.sleep(1000);
+
 		    
 		   
 		    boolean tarpage=sp.isPageExists();
 		    
 		    if(tarpage)
 		    {
-		    	logger.info("Search Failed ");
-				Assert.assertTrue(true);
+		    	logger.info("Search Failed");
+		    	captureScreen(driver, "test_search");
+				Assert.assertTrue(false);
 		    }
 		    
 		    else
 			{
 				logger.error("Search Success ");
-				captureScreen(driver, "test_search"); //Capturing screenshot
+				
 				Assert.assertTrue(true);
 			}
 		}	
 		catch(Exception e)
 		{
-			logger.fatal("Search Failed ");
+			logger.fatal("Search Failed: "+e.getMessage());
 			Assert.fail();
 		}
 		

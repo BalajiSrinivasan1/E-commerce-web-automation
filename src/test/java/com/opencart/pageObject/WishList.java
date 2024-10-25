@@ -15,24 +15,25 @@ public class WishList
 	   PageFactory.initElements(driver,this);
    }
 	   @FindBy(name="search")
-		 WebElement searchtxt;
+	   public WebElement searchtxt;
 		
-		@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
-		WebElement searchbutton;
+	   @FindBy(xpath="(//button[@type='button'])[1]")
+	   public WebElement searchbutton;
 		
-		@FindBy(xpath="//button[@type='button']//i[@class='fa fa-heart']")
-		WebElement wlist;
+		@FindBy(xpath="(//button[@type='submit'])[2]")//(//div[@class='content']//button[@type='submit'])[2]
+		public WebElement wlist;
 		
 		//@FindBy(xpath="//a[@title='Wish List (1)']")
-		@FindBy(xpath="//span[normalize-space()='Wish List (1)']")
+		@FindBy(xpath="(//span[@class='d-none d-md-inline'])[4]")
 		//@FindBy(xpath="//i[@class='fa fa-heart']")
-		WebElement wlisticon;
+		public WebElement wlisticon;
 		
 		
-		@FindBy(xpath="//p[contains(text(),'There is no product that matches the search criter')]")
-		WebElement notfoun;
+		@FindBy(xpath="(//button[@type='submit'])[2]")
+		public WebElement addToCart;//https://demo.opencart.com/en-gb?route=account/wishlist&customer_token=a931403418aa09666fee44bf83
 
-	
+	    @FindBy(xpath="(//*[@type='submit'])[2]")
+	    public WebElement removeWishList;
 		
 		
 		public void search_txt(String text)
@@ -58,7 +59,8 @@ public class WishList
 		{
 			try
 			{
-			return (notfoun.isDisplayed());
+			
+			return (addToCart.isDisplayed());
 			}
 			catch(Exception e)
 			{

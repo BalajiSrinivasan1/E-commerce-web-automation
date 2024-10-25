@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.opencart.utilities.Reporting"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <parameter name="browser" value="chrome"></parameter>    
+    <classes>
+     <class name="com.opencart.testCase.TC_002_Login"/>
+     <class name="com.opencart.testCase.TC_003_LoginDDT"/>
+     <class name="com.opencart.testCase.TC_004Search"/>
+     <class name="com.opencart.testCase.TC_005_Addcart"/>
+      <class name="com.opencart.testCase.TC_006_ProductCompare"/>
+      <class name="com.opencart.testCase.TC_007_WishList"/>
+      <class name="com.opencart.testCase.TC_008_ProductDisplayPage"/>
+      <class name="com.opencart.testCase.TC_009_ForgotPassword"/>
+      <class name="com.opencart.testCase.TC_010_ShoppingCart"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

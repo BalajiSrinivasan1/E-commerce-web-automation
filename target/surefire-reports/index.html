@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\bala\Desktop\selenium project\E-CommerceAutomationProject\testng.xml</span>
+                    <span>C:\Users\bala\Desktop\selenium project\E-commerceAutomationProject\Regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_010_ShoppingCart" class="method navigator-link" hash-for-method="test_ShoppingCart">test_ShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_007_WishList" class="method navigator-link" hash-for-method="test_wishlist">test_wishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +122,52 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_006_ProductCompare" class="method navigator-link" hash-for-method="testProductCompare">testProductCompare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_002_Login" class="method navigator-link" hash-for-method="test_Login">test_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_003_LoginDDT" class="method navigator-link" hash-for-method="test_LoginDDT(maya@gmail.com, 3tdwgf, Invalid)">test_LoginDDT(maya@gmail.com, 3tdwgf, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_003_LoginDDT" class="method navigator-link" hash-for-method="test_LoginDDT(kp@gmail.com, 62hady, Valid)">test_LoginDDT(kp@gmail.com, 62hady, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_003_LoginDDT" class="method navigator-link" hash-for-method="test_LoginDDT(don@gmail.com, 12345a, Valid)">test_LoginDDT(don@gmail.com, 12345a, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_003_LoginDDT" class="method navigator-link" hash-for-method="test_LoginDDT(kar@gmail.com, sd1234, Invalid)">test_LoginDDT(kar@gmail.com, sd1234, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_005_Addcart" class="method navigator-link" hash-for-method="test_addcart">test_addcart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_009_ForgotPassword" class="method navigator-link" hash-for-method="test_forgotpassword">test_forgotpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_008_ProductDisplayPage" class="method navigator-link" hash-for-method="test_productdisplay">test_productdisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.opencart.testCase.TC_004Search" class="method navigator-link" hash-for-method="test_search">test_search</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -118,6 +182,69 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.opencart.testCase.TC_007_WishList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_wishlist">
+                  </a> <!-- test_wishlist -->
+                  <span class="method-name">test_wishlist</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.opencart.testCase.TC_007_WishList.test_wishlist(TC_007_WishList.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.opencart.testCase.TC_010_ShoppingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ShoppingCart">
+                  </a> <!-- test_ShoppingCart -->
+                  <span class="method-name">test_ShoppingCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Shopping Cart&apos;]&quot;}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ea0e177ec6fd657b14bb614fb2ef590, findElement {value=//span[text()=&apos;Shopping Cart&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49967/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea0e177ec6fd657b14bb614fb2ef590
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at com.opencart.pageObject.ShoppingCart.shop_cart(ShoppingCart.java:101)
+	at com.opencart.testCase.TC_010_ShoppingCart.test_ShoppingCart(TC_010_ShoppingCart.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -133,10 +260,125 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.opencart.testCase.TC_004Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_search">
+                  </a> <!-- test_search -->
+                  <span class="method-name">test_search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.opencart.testCase.TC_008_ProductDisplayPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_productdisplay">
+                  </a> <!-- test_productdisplay -->
+                  <span class="method-name">test_productdisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.opencart.testCase.TC_005_Addcart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_addcart">
+                  </a> <!-- test_addcart -->
+                  <span class="method-name">test_addcart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.opencart.testCase.TC_006_ProductCompare</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductCompare">
+                  </a> <!-- testProductCompare -->
+                  <span class="method-name">testProductCompare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.opencart.testCase.TC_009_ForgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forgotpassword">
+                  </a> <!-- test_forgotpassword -->
+                  <span class="method-name">test_forgotpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.opencart.testCase.TC_003_LoginDDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_LoginDDT(maya@gmail.com, 3tdwgf, Invalid)">
+                  </a> <!-- test_LoginDDT(maya@gmail.com, 3tdwgf, Invalid) -->
+                  <span class="method-name">test_LoginDDT</span>
+                  <span class="parameters">(maya@gmail.com,3tdwgf,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_LoginDDT(kp@gmail.com, 62hady, Valid)">
+                  </a> <!-- test_LoginDDT(kp@gmail.com, 62hady, Valid) -->
+                  <span class="method-name">test_LoginDDT</span>
+                  <span class="parameters">(kp@gmail.com,62hady,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_LoginDDT(don@gmail.com, 12345a, Valid)">
+                  </a> <!-- test_LoginDDT(don@gmail.com, 12345a, Valid) -->
+                  <span class="method-name">test_LoginDDT</span>
+                  <span class="parameters">(don@gmail.com,12345a,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_LoginDDT(kar@gmail.com, sd1234, Invalid)">
+                  </a> <!-- test_LoginDDT(kar@gmail.com, sd1234, Invalid) -->
+                  <span class="method-name">test_LoginDDT</span>
+                  <span class="parameters">(kar@gmail.com,sd1234,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bala\Desktop\selenium project\E-CommerceAutomationProject\testng.xml</span>
+            <span class="header-content">C:\Users\bala\Desktop\selenium project\E-commerceAutomationProject\Regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,10 +388,18 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.opencart.utilities.Reporting&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.opencart.testCase.TC_002_Login&quot;/&gt;
+      &lt;class name=&quot;com.opencart.testCase.TC_003_LoginDDT&quot;/&gt;
+      &lt;class name=&quot;com.opencart.testCase.TC_004Search&quot;/&gt;
+      &lt;class name=&quot;com.opencart.testCase.TC_005_Addcart&quot;/&gt;
+      &lt;class name=&quot;com.opencart.testCase.TC_006_ProductCompare&quot;/&gt;
+      &lt;class name=&quot;com.opencart.testCase.TC_007_WishList&quot;/&gt;
+      &lt;class name=&quot;com.opencart.testCase.TC_008_ProductDisplayPage&quot;/&gt;
+      &lt;class name=&quot;com.opencart.testCase.TC_009_ForgotPassword&quot;/&gt;
+      &lt;class name=&quot;com.opencart.testCase.TC_010_ShoppingCart&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -163,7 +413,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -174,7 +424,7 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">master</span>
+              <span class="test-group-name">regerssion</span>
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">test_Login</span>
@@ -205,16 +455,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_Login')
-data.setCell(0, 2, 'com.opencart.testCase.TC_002_Login')
-data.setCell(0, 3, 70833);
+data.setCell(0, 1, 'test_wishlist')
+data.setCell(0, 2, 'com.opencart.testCase.TC_007_WishList')
+data.setCell(0, 3, 106623);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_forgotpassword')
+data.setCell(1, 2, 'com.opencart.testCase.TC_009_ForgotPassword')
+data.setCell(1, 3, 64464);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_LoginDDT')
+data.setCell(2, 2, 'com.opencart.testCase.TC_003_LoginDDT')
+data.setCell(2, 3, 58109);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_Login')
+data.setCell(3, 2, 'com.opencart.testCase.TC_002_Login')
+data.setCell(3, 3, 47801);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_search')
+data.setCell(4, 2, 'com.opencart.testCase.TC_004Search')
+data.setCell(4, 3, 40056);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testProductCompare')
+data.setCell(5, 2, 'com.opencart.testCase.TC_006_ProductCompare')
+data.setCell(5, 3, 37140);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_ShoppingCart')
+data.setCell(6, 2, 'com.opencart.testCase.TC_010_ShoppingCart')
+data.setCell(6, 3, 33531);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_productdisplay')
+data.setCell(7, 2, 'com.opencart.testCase.TC_008_ProductDisplayPage')
+data.setCell(7, 3, 32656);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_LoginDDT')
+data.setCell(8, 2, 'com.opencart.testCase.TC_003_LoginDDT')
+data.setCell(8, 3, 27868);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_LoginDDT')
+data.setCell(9, 2, 'com.opencart.testCase.TC_003_LoginDDT')
+data.setCell(9, 3, 27163);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_addcart')
+data.setCell(10, 2, 'com.opencart.testCase.TC_005_Addcart')
+data.setCell(10, 3, 19323);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_LoginDDT')
+data.setCell(11, 2, 'com.opencart.testCase.TC_003_LoginDDT')
+data.setCell(11, 3, 18311);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -247,11 +541,159 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Login</span>
-                <span class="method-start">12596 ms</span>
+                <span class="method-start">11889 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">84069 ms</span>
+                <span class="method-start">59751 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_003_LoginDDT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">59766 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_LoginDDT(don@gmail.com, 12345a, Valid)</span>
+                <span class="method-start">78926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_LoginDDT(kp@gmail.com, 62hady, Valid)</span>
+                <span class="method-start">137041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_LoginDDT(maya@gmail.com, 3tdwgf, Invalid)</span>
+                <span class="method-start">155363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_LoginDDT(kar@gmail.com, sd1234, Invalid)</span>
+                <span class="method-start">182526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">210394 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_004Search</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">210394 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_search</span>
+                <span class="method-start">222634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">262690 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_005_Addcart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">262690 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_addcart</span>
+                <span class="method-start">269128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_006_ProductCompare</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">288451 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_005_Addcart</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">288451 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_006_ProductCompare</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProductCompare</span>
+                <span class="method-start">296106 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_007_WishList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">333247 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_006_ProductCompare</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">333247 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_007_WishList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_wishlist</span>
+                <span class="method-start">337740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">444379 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_008_ProductDisplayPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">444394 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_productdisplay</span>
+                <span class="method-start">449603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">482260 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_009_ForgotPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">482261 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_forgotpassword</span>
+                <span class="method-start">488713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">553179 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.testCase.TC_010_ShoppingCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">553179 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_ShoppingCart</span>
+                <span class="method-start">561377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">594908 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -17,7 +17,7 @@ public class SearchPage
 	     @FindBy(name="search")
 		 WebElement searchtxt;
 		
-		@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+		@FindBy(xpath="(//button[@type='button'])[1]")
 		WebElement searchbutton;
 		
 				

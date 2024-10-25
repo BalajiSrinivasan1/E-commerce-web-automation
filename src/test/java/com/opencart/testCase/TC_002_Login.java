@@ -3,19 +3,20 @@ package com.opencart.testCase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.opencart.pageObject.homePage;
-import com.opencart.pageObject.loginPage;
+import com.opencart.pageObject.HomePage;
+import com.opencart.pageObject.LoginPage;
+import com.opencart.pageObject.MyAccountPage;
 
-public class TC_002_Login extends baseClass
+public class TC_002_Login extends BaseClass
 {
-	@Test(groups= {"sanity","master"})
+	@Test(groups= {"sanity","regerssion"})
 	public void test_Login()
 	{
 		logger.info(" Starting TC_002_Login ");
 		
 		try
 		{
-			System.out.println(url);
+		
 			driver.get(url);
 			
 			
@@ -32,7 +33,7 @@ public class TC_002_Login extends baseClass
             hp.clickLogin();
 			logger.info("Clicked on Login ");
 			
-			loginPage lp=new loginPage(driver);
+			LoginPage lp=new LoginPage(driver);
 			
 			lp.setEmail(username);
 			logger.info("Provided Email ");
@@ -50,6 +51,9 @@ public class TC_002_Login extends baseClass
 			if(targetpage)
 			{
 				logger.info("Login Success ");
+				MyAccountPage myaccpage=new MyAccountPage(driver);
+				myaccpage.clickLogout();
+				myaccpage.clickOnContinue();
 				Assert.assertTrue(true);
 			}
 			else

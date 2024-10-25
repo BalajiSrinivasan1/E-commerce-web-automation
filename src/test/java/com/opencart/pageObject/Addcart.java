@@ -5,32 +5,32 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Addcart 
+public class AddCart 
 {
    WebDriver driver;
    
-   public Addcart(WebDriver driver)
+   public AddCart(WebDriver driver)
    {
 	   this.driver=driver;
 	   PageFactory.initElements(driver,this);
    } 
 	   @FindBy(name="search")
-		 WebElement searchtxt;
+		public WebElement searchtxt;
 		
-		@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
-		WebElement searchbutton;
+		@FindBy(xpath="(//button[@type='button'])[1]")
+		public WebElement searchbutton;
 		
-		@FindBy(xpath="//span[normalize-space()='Add to Cart']")
-		WebElement addcart;
+		@FindBy(xpath="//div[@class='content']//button[1]")
+		public WebElement addcart;
 		
-		@FindBy(xpath="//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']")
-		WebElement viewcart;
+		@FindBy(xpath="//span[text()='Shopping Cart']")
+		public WebElement shoppingCart;
 		
 		@FindBy(xpath="//strong[normalize-space()='View Cart']")
-		WebElement view;
+		public WebElement view;
 		
 		@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
-		WebElement msgconfm;
+		public WebElement msgconfm;
 		
 		
 		public void search_txt(String text)
@@ -48,9 +48,9 @@ public class Addcart
 			addcart.click();
 		}
       
-		public void viewcart()
+		public void clickOnShoppingCart()
 		{
-			viewcart.click();
+			shoppingCart.click();
 			}
 		
 		public void view()

@@ -1,20 +1,19 @@
 package com.opencart.testCase;
 
 
-	import java.io.IOException;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
-	import org.openqa.selenium.By;
-	import org.testng.Assert;
-	import org.testng.annotations.DataProvider;
-	import org.testng.annotations.Test;
+import com.opencart.pageObject.HomePage;
+import com.opencart.pageObject.LoginPage;
+import com.opencart.pageObject.MyAccountPage;
+import com.opencart.utilities.ExcelUtils;
 
-	import pageObjects.HomePage;
-	import pageObjects.LoginPage;
-	import pageObjects.MyAccountPage;
-	import testBase.BaseClass;
-	import utilities.XLUtility;
 
-	public class TC_003_LoginDDT extends baseClass{
+
+
+	public class TC_003_LoginDDT extends BaseClass{
 		
 		
 		@Test(dataProvider="LoginData")
@@ -30,9 +29,12 @@ package com.opencart.testCase;
 				driver.manage().window().maximize();
 				
 				HomePage hp=new HomePage(driver);
+			     
+			    VisibleOfElement(hp.lnkMyaccount);
 				hp.clickMyAccount();
 				logger.info("Clicked on My Account ");
-				hp.clickLogin();
+			    VisibleOfElement(hp.linkLogin);
+			    hp.clickLogin();
 				logger.info("Clicked on Login ");
 				
 				LoginPage lp=new LoginPage(driver);
@@ -55,13 +57,17 @@ package com.opencart.testCase;
 					{
 						logger.info("Login Success ");
 						
+						
 						MyAccountPage myaccpage=new MyAccountPage(driver);
 						myaccpage.clickLogout();
+						myaccpage.clickOnContinue();
+						
 						Assert.assertTrue(true);
 					}
 					else
 					{
 						logger.error("Login Failed ");
+						captureScreen(driver, "test_LoginDDT");
 						Assert.assertTrue(false);
 					}
 				}
@@ -72,11 +78,13 @@ package com.opencart.testCase;
 					{
 						MyAccountPage myaccpage=new MyAccountPage(driver);
 						myaccpage.clickLogout();
+						logger.fatal("Login pass but test case faild because wrong credential");
+						captureScreen(driver, "test_LoginDDT");
 						Assert.assertTrue(false);
 					}
 					else
 					{		
-						logger.error("Login Failed ");
+						logger.info("Login Failed wrong credential but test case is passed");
 						Assert.assertTrue(true);
 					}
 				}
@@ -84,7 +92,7 @@ package com.opencart.testCase;
 				
 			}catch(Exception e)
 			{
-				logger.fatal("Login Failed ");
+				logger.fatal("Login Failed: "+e.getMessage());
 				Assert.fail();
 			}
 			
@@ -93,29 +101,18 @@ package com.opencart.testCase;
 		}
 		
 		
-		@DataProvider(name="LoginData")
-		public String [][] getData() throws IOException
-		{
-			String path=".\\testData\\Opencart_LoginData.xlsx";//taking xl file from testData
-			
-			XLUtility xlutil=new XLUtility(path);//creating an object for xlutils
-			
-			int totalrows=xlutil.getRowCount("Sheet1");	
-			int totalcols=xlutil.getCellCount("Sheet1",1);
-					
-			String logindata[][]=new String[totalrows][totalcols];//created for two dimension array which can store the data user and password
-			
-			for(int i=1;i<=totalrows;i++)  //1   //read the data from xl storing in two deminsional array
-			{		
-				for(int j=0;j<totalcols;j++)  //0    i is rows j is col
-				{
-					logindata[i-1][j]= xlutil.getCellData("Sheet1",i, j);  //1,0
-				}
-			}
-		return logindata;//returning two deminsion array
-					
-		}
 		
+		@DataProvider(name="LoginData")
+		String[][] getData()
+		{
+			String path=System.getProperty("user.dir")+"\\src\\test\\java\\com\\opencart\\testdata\\test data.xlsx";
+			
+		   ExcelUtils.addExcelFilePathAndSheetIndexValue(path, 2);
+			int rowCount=ExcelUtils.getRowCount();
+			int columnCount = ExcelUtils.getColumnCount();
+			
+			return ExcelUtils.TestData(rowCount, columnCount);
+		}
 		
 		
 	

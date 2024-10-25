@@ -12,62 +12,101 @@ public class ShoppingCart
      WebDriver driver;
      public ShoppingCart(WebDriver driver)
      {
-    	 this.driver=driver;
+    	 
     	 PageFactory.initElements(driver,this);
          }
      
-     @FindBy(name="search")
+     
+     public @FindBy(name="search")
 	 WebElement searchtxt;
 	
-	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
-	WebElement searchbutton;
+     public @FindBy(xpath="(//button[@type='button'])[1]")
+	 WebElement searchbutton;
 	
-	@FindBy(xpath="//span[text()='Add to Cart']")
+     public @FindBy(xpath="(//button[@type='submit'])[3]")
 	WebElement addcart;
 	
-	@FindBy(xpath="//span[text()='Shopping Cart']")
+     public @FindBy(xpath="//span[text()='Shopping Cart']")
 	WebElement shopingcart;
 	
-	@FindBy(xpath="//a[normalize-space()='Use Coupon Code']")
-			WebElement drpselect;
+     public @FindBy(linkText="Continue")
+	WebElement continueBtn;
 	
-	@FindBy(xpath="//input[@id='input-coupon']")
+     public @FindBy(xpath="//button[text()='Use Coupon Code']")
+	WebElement drpselect;
+	
+     public @FindBy(xpath="//input[@id='input-coupon']")
 	WebElement textbox;
 	//drowpdown2
-	@FindBy(xpath="//a[text()='Estimate Shipping & Taxes ']")
-    WebElement shipi;
+     public @FindBy(xpath="//button[text() ='Estimate Shipping & Taxes']")
+    WebElement shiping;
     
-    @FindBy(id="input-country")
-    WebElement select;
+     public @FindBy(id="input-country")
+    WebElement selectCountry;
     
-    @FindBy(id="input-zone")
-    WebElement selectzone;
+     public @FindBy(id="input-zone")
+    WebElement selectState;
     
-    @FindBy(id="input-postcode")
+     public @FindBy(id="input-postcode")
     WebElement postcode;
     
-    @FindBy(xpath="//button[@id='button-quote']")
+     public @FindBy(xpath="//button[@id='button-quote']")
     WebElement getquote;
     
-    @FindBy(xpath="//input[@name='shipping_method']")
-    WebElement radio;
+    public @FindBy(id="shipping-addresses")
+    WebElement shippingAddressd;
     
-    @FindBy(xpath="//input[@value='Apply Shipping']")
-    WebElement applyship;
+    public @FindBy(id="input-shipping-address")
+    WebElement shippingAddressdDropDown;
+
+    public @FindBy(id="button-shipping-methods")
+    WebElement shippingMethodeChoose;
+    
+     public @FindBy(id="input-shipping-method-flat-flat")
+    WebElement radioshipping;
+    
+     public @FindBy(id="button-shipping-method")
+    WebElement shippingMethodeContinue;
+
+public @FindBy(id="button-payment-methods")
+WebElement paymentMethodeChoose;
+
+public @FindBy(id="input-payment-method-cod-cod")
+WebElement radioPayment;
+
+public @FindBy(id="button-payment-method")
+WebElement paymentMethodeContinue;
+
+public @FindBy(id="input-comment")
+WebElement addComment;
+
+public @FindBy(id="content")
+WebElement orderMessage;
+
+public @FindBy(id="Continue")
+WebElement linkContinue;
     
  //dropdown3
-	@FindBy(xpath="//a[text()='Use Gift Certificate ']")
+     public @FindBy(xpath="//a[text()='Use Gift Certificate ']")
 	WebElement gift;
 	
-	@FindBy(xpath="//input[@id='input-voucher']")
+     public @FindBy(xpath="//input[@id='input-voucher']")
 	WebElement giftcerti;
 	
-	@FindBy(xpath="//input[@value='Apply Gift Certificate']")
+     public @FindBy(xpath="//input[@value='Apply Gift Certificate']")
 	WebElement applygc;
 	
-	//continue button
-	@FindBy(xpath="//a[normalize-space()='Continue Shopping']")
-	WebElement con_button;
+   public  @FindBy(linkText="Checkout")
+	  WebElement checkout;
+   
+   
+   
+   public @FindBy(id="button-confirm")
+   WebElement confirmOrder;
+   
+//	//continue button
+//	@FindBy(xpath="//a[normalize-space()='Continue Shopping']")
+//	WebElement con_button;
 	
 	public void searchtxt(String text)
     {
@@ -100,9 +139,9 @@ public class ShoppingCart
 		textbox.sendKeys(text);
 	}
 
-	public void drpdown2()
+	public void shipping()
 	{
-		shipi.click();
+		shiping.click();
 	}
 
 	public void  select_list()
@@ -121,37 +160,33 @@ public class ShoppingCart
 	{
 	      postcode.sendKeys(text);
 			}
-	public void select_getquote()
-	{
-		getquote.click();
-	}
 	
-	public void select_radio()
-	{
-		radio.click();
-	}
 	
-	public void select_applyship()
-	{
-		applyship.click();
-	}
-	public void select_gift()
-	{
-		gift.click();
-	}
-	
-	public void select_giftcertifi(String text)
-	{
-		giftcerti.sendKeys(text);
-	}
 	
 	public void select_buttongc() 
 	{
 		applygc.click();
 	}
 	
+	public void clickOnCheckOut() {
+		checkout.click();
+	}
 	public void click_continue()
 	{
-		con_button.click();
+		continueBtn.click();
 	}
+	
+	public void clickOnShippingMethod() {
+		shippingMethodeChoose.click();
+		radioshipping.click();
+		shippingMethodeContinue.click();
+	}
+	
+	public void clickOnPaymentMethode() {
+		 paymentMethodeChoose.click();
+         radioPayment.click();
+        paymentMethodeContinue.click();
+	}
+	
+	
 }

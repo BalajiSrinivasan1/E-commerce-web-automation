@@ -12,7 +12,7 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public @FindBy(xpath="//span[text()='My Account']")
+	public @FindBy(xpath="(//a[@data-bs-toggle='dropdown'])[2]")
 	WebElement lnkMyaccount;
 	
 	public @FindBy(linkText="Register")

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-20T15:51:27 IST" name="Suite" finished-at="2024-10-20T15:52:52 IST" duration-ms="84829">
+  <suite started-at="2024-10-24T18:46:40 IST" name="Suite" finished-at="2024-10-24T18:56:35 IST" duration-ms="595486">
     <groups>
+      <group name="regerssion">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@3295b0]" name="test_Login" class="com.opencart.testCase.TC_002_Login"/>
+      </group> <!-- regerssion -->
       <group name="sanity">
-        <method signature="TC_002_Login.test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" name="test_Login" class="com.opencart.testCase.TC_002_Login"/>
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@3295b0]" name="test_Login" class="com.opencart.testCase.TC_002_Login"/>
       </group> <!-- sanity -->
-      <group name="master">
-        <method signature="TC_002_Login.test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" name="test_Login" class="com.opencart.testCase.TC_002_Login"/>
-      </group> <!-- master -->
     </groups>
-    <test started-at="2024-10-20T15:51:27 IST" name="Test" finished-at="2024-10-20T15:52:52 IST" duration-ms="84829">
-      <class name="com.opencart.testCase.TC_002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" started-at="2024-10-20T15:51:27 IST" name="setup" finished-at="2024-10-20T15:51:40 IST" duration-ms="12565" status="PASS">
+    <test started-at="2024-10-24T18:46:40 IST" name="Test" finished-at="2024-10-24T18:56:35 IST" duration-ms="595486">
+      <class name="com.opencart.testCase.TC_010_ShoppingCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_010_ShoppingCart@e28667]" started-at="2024-10-24T18:55:53 IST" name="setup" finished-at="2024-10-24T18:56:02 IST" duration-ms="8197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,15 +24,385 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" started-at="2024-10-20T15:51:40 IST" name="test_Login" finished-at="2024-10-20T15:52:51 IST" duration-ms="70833" status="PASS">
+        <test-method signature="test_ShoppingCart()[pri:0, instance:com.opencart.testCase.TC_010_ShoppingCart@e28667]" started-at="2024-10-24T18:56:02 IST" name="test_ShoppingCart" finished-at="2024-10-24T18:56:35 IST" duration-ms="33531" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Shopping Cart']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ea0e177ec6fd657b14bb614fb2ef590, findElement {value=//span[text()='Shopping Cart'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49967/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea0e177ec6fd657b14bb614fb2ef590]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Shopping Cart']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ea0e177ec6fd657b14bb614fb2ef590, findElement {value=//span[text()='Shopping Cart'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49967/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea0e177ec6fd657b14bb614fb2ef590
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at com.opencart.pageObject.ShoppingCart.shop_cart(ShoppingCart.java:101)
+at com.opencart.testCase.TC_010_ShoppingCart.test_ShoppingCart(TC_010_ShoppingCart.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ShoppingCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_010_ShoppingCart@e28667]" started-at="2024-10-24T18:56:35 IST" name="tearDown" finished-at="2024-10-24T18:56:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCase.TC_010_ShoppingCart -->
+      <class name="com.opencart.testCase.TC_004Search">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_004Search@a3b418]" started-at="2024-10-24T18:50:11 IST" name="setup" finished-at="2024-10-24T18:50:23 IST" duration-ms="12240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_search()[pri:0, instance:com.opencart.testCase.TC_004Search@a3b418]" started-at="2024-10-24T18:50:23 IST" name="test_search" finished-at="2024-10-24T18:51:03 IST" duration-ms="40056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_004Search@a3b418]" started-at="2024-10-24T18:51:03 IST" name="tearDown" finished-at="2024-10-24T18:51:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCase.TC_004Search -->
+      <class name="com.opencart.testCase.TC_005_Addcart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_005_Addcart@cbafc2]" started-at="2024-10-24T18:51:03 IST" name="setup" finished-at="2024-10-24T18:51:09 IST" duration-ms="6437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_addcart()[pri:0, instance:com.opencart.testCase.TC_005_Addcart@cbafc2]" started-at="2024-10-24T18:51:09 IST" name="test_addcart" finished-at="2024-10-24T18:51:29 IST" duration-ms="19323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addcart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_005_Addcart@cbafc2]" started-at="2024-10-24T18:51:29 IST" name="tearDown" finished-at="2024-10-24T18:51:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCase.TC_005_Addcart -->
+      <class name="com.opencart.testCase.TC_003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_003_LoginDDT@2b0582]" started-at="2024-10-24T18:47:40 IST" name="setup" finished-at="2024-10-24T18:47:51 IST" duration-ms="11083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.testCase.TC_003_LoginDDT@2b0582]" started-at="2024-10-24T18:47:59 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-10-24T18:48:57 IST" duration-ms="58109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[don@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.testCase.TC_003_LoginDDT@2b0582]" started-at="2024-10-24T18:48:57 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-10-24T18:49:15 IST" duration-ms="18311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[62hady]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.testCase.TC_003_LoginDDT@2b0582]" started-at="2024-10-24T18:49:16 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-10-24T18:49:43 IST" duration-ms="27163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3tdwgf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.testCase.TC_003_LoginDDT@2b0582]" started-at="2024-10-24T18:49:43 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2024-10-24T18:50:11 IST" duration-ms="27868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sd1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_003_LoginDDT@2b0582]" started-at="2024-10-24T18:50:11 IST" name="tearDown" finished-at="2024-10-24T18:50:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCase.TC_003_LoginDDT -->
+      <class name="com.opencart.testCase.TC_006_ProductCompare">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_006_ProductCompare@34b64c]" started-at="2024-10-24T18:51:29 IST" name="setup" finished-at="2024-10-24T18:51:36 IST" duration-ms="7655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testProductCompare()[pri:0, instance:com.opencart.testCase.TC_006_ProductCompare@34b64c]" started-at="2024-10-24T18:51:36 IST" name="testProductCompare" finished-at="2024-10-24T18:52:13 IST" duration-ms="37140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCompare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_006_ProductCompare@34b64c]" started-at="2024-10-24T18:52:13 IST" name="tearDown" finished-at="2024-10-24T18:52:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCase.TC_006_ProductCompare -->
+      <class name="com.opencart.testCase.TC_009_ForgotPassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_009_ForgotPassword@161d8d1]" started-at="2024-10-24T18:54:42 IST" name="setup" finished-at="2024-10-24T18:54:49 IST" duration-ms="6452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_forgotpassword()[pri:0, instance:com.opencart.testCase.TC_009_ForgotPassword@161d8d1]" started-at="2024-10-24T18:54:49 IST" name="test_forgotpassword" finished-at="2024-10-24T18:55:53 IST" duration-ms="64464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_forgotpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_009_ForgotPassword@161d8d1]" started-at="2024-10-24T18:55:53 IST" name="tearDown" finished-at="2024-10-24T18:55:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCase.TC_009_ForgotPassword -->
+      <class name="com.opencart.testCase.TC_008_ProductDisplayPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_008_ProductDisplayPage@d1dc36]" started-at="2024-10-24T18:54:05 IST" name="setup" finished-at="2024-10-24T18:54:10 IST" duration-ms="5209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_productdisplay()[pri:0, instance:com.opencart.testCase.TC_008_ProductDisplayPage@d1dc36]" started-at="2024-10-24T18:54:10 IST" name="test_productdisplay" finished-at="2024-10-24T18:54:42 IST" duration-ms="32656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_productdisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_008_ProductDisplayPage@d1dc36]" started-at="2024-10-24T18:54:42 IST" name="tearDown" finished-at="2024-10-24T18:54:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCase.TC_008_ProductDisplayPage -->
+      <class name="com.opencart.testCase.TC_002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_002_Login@3295b0]" started-at="2024-10-24T18:46:40 IST" name="setup" finished-at="2024-10-24T18:46:52 IST" duration-ms="11842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:com.opencart.testCase.TC_002_Login@3295b0]" started-at="2024-10-24T18:46:52 IST" name="test_Login" finished-at="2024-10-24T18:47:40 IST" duration-ms="47801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_002_Login@7f1f10]" started-at="2024-10-20T15:52:52 IST" name="tearDown" finished-at="2024-10-20T15:52:52 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_002_Login@3295b0]" started-at="2024-10-24T18:47:40 IST" name="tearDown" finished-at="2024-10-24T18:47:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.opencart.testCase.TC_002_Login -->
+      <class name="com.opencart.testCase.TC_007_WishList">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCase.TC_007_WishList@1d3a5e0]" started-at="2024-10-24T18:52:13 IST" name="setup" finished-at="2024-10-24T18:52:18 IST" duration-ms="4493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_wishlist()[pri:0, instance:com.opencart.testCase.TC_007_WishList@1d3a5e0]" started-at="2024-10-24T18:52:18 IST" name="test_wishlist" finished-at="2024-10-24T18:54:05 IST" duration-ms="106623" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at com.opencart.testCase.TC_007_WishList.test_wishlist(TC_007_WishList.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_wishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testCase.TC_007_WishList@1d3a5e0]" started-at="2024-10-24T18:54:05 IST" name="tearDown" finished-at="2024-10-24T18:54:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCase.TC_007_WishList -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

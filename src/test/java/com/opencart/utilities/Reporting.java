@@ -19,6 +19,7 @@ public class Reporting implements ITestListener{
 	public ExtentTest test;
 	
 	 public void onStart(ITestContext context) {
+		 
 		 String timeStamp= new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		 String repName = "Test_Report_"+timeStamp+".html";
 		   sparkreporter=new ExtentSparkReporter("./reports/"+repName);
@@ -51,16 +52,18 @@ public class Reporting implements ITestListener{
 	 public void onTestSuccess(ITestResult result) {
 		 test=extent.createTest(result.getName());
 		 test.log(Status.PASS, "Test case is Passed is:"+result.getName());
+	
+		
 		  }
 	 public void onTestFailure(ITestResult result) {
-		 System.out.println("test faild "+result.getName());
+		
 		  test=extent.createTest(result.getName());
 			 test.log(Status.FAIL, "Test case is failed is:"+result.getName());
 			 test.log(Status.FAIL, "Test case is faild cause is:"+result.getThrowable());
 		
 			 try
 				{
-				String screenshotPath=System.getProperty("user.dir")+"\\screenshots\\"+result.getName()+".png";
+				String screenshotPath=System.getProperty("user.dir")+"\\Screenshort\\"+result.getName()+".png";
 				test.addScreenCaptureFromPath(screenshotPath);
 				}
 				catch(Exception e)

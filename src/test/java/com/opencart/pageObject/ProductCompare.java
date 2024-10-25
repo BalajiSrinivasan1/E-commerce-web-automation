@@ -20,15 +20,21 @@ public class ProductCompare
       @FindBy(name="search")
 		 WebElement searchtxt;
 		
-		@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+      @FindBy(xpath="(//button[@type='button'])[1]")
 		WebElement searchbutton;
 		
-		@FindBy(xpath="//i[@class='fa fa-exchange']")
-		WebElement productcompare;//productcompare icon
+		@FindBy(xpath="(//i[@class='fa-solid fa-arrow-right-arrow-left'])[2]")
+		WebElement compareProductBtn;//productcompare icon
 				
         @FindBy(xpath="//a[@id='compare-total']")
-         WebElement productlink;
+         WebElement productCompareBtn;
+        
+        @FindBy(linkText="Continue")
+        WebElement continuebtn;
 		
+        @FindBy(xpath="//h1[text()='Product Comparison']")
+        WebElement messgeText;
+        
 		public void search_txt(String text)
 	      {
 	    	  searchtxt.sendKeys(text);
@@ -39,14 +45,28 @@ public class ProductCompare
 			searchbutton.click();
 		}
 		
-		public void product_compare()
+		public void ClickOnCompareProduct()
 		{
-			productcompare.click();
+			compareProductBtn.click();
 		}
 		
-		public void productcopareicon()
+		public void ClickOnproductCompare()
 		{
-			productlink.click();
+			productCompareBtn.click();
+		}
+		
+//		public void clickOnContinue() {
+//			continuebtn.click();
+//		}
+		
+		public boolean isPresent() {
+			try {
+				messgeText.getText();
+				return true;
+			} catch (Exception e) {
+				// TODO: handle exception
+				return false;
+			}
 		}
 		
       }

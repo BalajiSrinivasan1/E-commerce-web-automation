@@ -30,8 +30,10 @@ public class ForgotPassword
     	@FindBy(xpath="//input[@id='input-email']")
     	WebElement email;
     	
-    	@FindBy(xpath="//input[@value='Continue']")
+    	@FindBy(xpath="//button[text()='Continue']")
     	WebElement con_tinue;
+    	public @FindBy(xpath="//div[text()=' Success: Your password has been successfully updated. ']")
+    	WebElement successMss;
     	
     	public void clickMyAccount()
     	{

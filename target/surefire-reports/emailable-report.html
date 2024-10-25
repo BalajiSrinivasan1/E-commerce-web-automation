@@ -9,10 +9,50 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">84,829</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">595,486</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.opencart.testCase.TC_002_Login</td><td><a href="#m0">test_Login</a></td><td rowspan="1">1729419700574</td><td rowspan="1">70833</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.opencart.testCase.TC_007_WishList</td><td><a href="#m0">test_wishlist</a></td><td rowspan="1">1729776138378</td><td rowspan="1">106623</td></tr><tr class="failedodd"><td rowspan="1">com.opencart.testCase.TC_010_ShoppingCart</td><td><a href="#m1">test_ShoppingCart</a></td><td rowspan="1">1729776362015</td><td rowspan="1">33531</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.opencart.testCase.TC_002_Login</td><td><a href="#m2">test_Login</a></td><td rowspan="1">1729775812527</td><td rowspan="1">47801</td></tr><tr class="passedodd"><td rowspan="4">com.opencart.testCase.TC_003_LoginDDT</td><td><a href="#m3">test_LoginDDT</a></td><td rowspan="4">1729775956001</td><td rowspan="4">27163</td></tr><tr class="passedodd"><td><a href="#m4">test_LoginDDT</a></td></tr><tr class="passedodd"><td><a href="#m5">test_LoginDDT</a></td></tr><tr class="passedodd"><td><a href="#m6">test_LoginDDT</a></td></tr><tr class="passedeven"><td rowspan="1">com.opencart.testCase.TC_004Search</td><td><a href="#m7">test_search</a></td><td rowspan="1">1729776023272</td><td rowspan="1">40056</td></tr><tr class="passedodd"><td rowspan="1">com.opencart.testCase.TC_005_Addcart</td><td><a href="#m8">test_addcart</a></td><td rowspan="1">1729776069766</td><td rowspan="1">19323</td></tr><tr class="passedeven"><td rowspan="1">com.opencart.testCase.TC_006_ProductCompare</td><td><a href="#m9">testProductCompare</a></td><td rowspan="1">1729776096744</td><td rowspan="1">37140</td></tr><tr class="passedodd"><td rowspan="1">com.opencart.testCase.TC_008_ProductDisplayPage</td><td><a href="#m10">test_productdisplay</a></td><td rowspan="1">1729776250241</td><td rowspan="1">32656</td></tr><tr class="passedeven"><td rowspan="1">com.opencart.testCase.TC_009_ForgotPassword</td><td><a href="#m11">test_forgotpassword</a></td><td rowspan="1">1729776289351</td><td rowspan="1">64464</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.opencart.testCase.TC_002_Login#test_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.opencart.testCase.TC_007_WishList#test_wishlist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at com.opencart.testCase.TC_007_WishList.test_wishlist(TC_007_WishList.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.opencart.testCase.TC_010_ShoppingCart#test_ShoppingCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Shopping Cart&apos;]&quot;}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ea0e177ec6fd657b14bb614fb2ef590, findElement {value=//span[text()=&apos;Shopping Cart&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49967/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea0e177ec6fd657b14bb614fb2ef590
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at com.opencart.pageObject.ShoppingCart.shop_cart(ShoppingCart.java:101)
+	at com.opencart.testCase.TC_010_ShoppingCart.test_ShoppingCart(TC_010_ShoppingCart.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.opencart.testCase.TC_002_Login#test_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.opencart.testCase.TC_003_LoginDDT#test_LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>maya@gmail.com</td><td>3tdwgf</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.opencart.testCase.TC_003_LoginDDT#test_LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>kp@gmail.com</td><td>62hady</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.opencart.testCase.TC_003_LoginDDT#test_LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>don@gmail.com</td><td>12345a</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.opencart.testCase.TC_003_LoginDDT#test_LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>kar@gmail.com</td><td>sd1234</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.opencart.testCase.TC_004Search#test_search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.opencart.testCase.TC_005_Addcart#test_addcart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.opencart.testCase.TC_006_ProductCompare#testProductCompare</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.opencart.testCase.TC_008_ProductDisplayPage#test_productdisplay</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.opencart.testCase.TC_009_ForgotPassword#test_forgotpassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

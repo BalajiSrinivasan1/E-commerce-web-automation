@@ -5,12 +5,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.opencart.pageObject.AccountRegistrationPage;
-import com.opencart.pageObject.accountRegistrationPage;
 import com.opencart.pageObject.HomePage;
 import com.opencart.utilities.ExcelUtils;
 
 
-public class TC_001_AccountRegistration extends baseClass
+public class TC_001_AccountRegistration extends BaseClass
 
 {
     

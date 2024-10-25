@@ -7,7 +7,8 @@
   <test thread-count="1" name="Test">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="com.opencart.testCase.TC_002_Login"/>
+      <class name="com.opencart.testCase.TC_001_AccountRegistration"/>
+      <class name="com.opencart.testCase.TC_003_LoginDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

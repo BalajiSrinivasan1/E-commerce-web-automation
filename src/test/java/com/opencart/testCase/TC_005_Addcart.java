@@ -3,9 +3,10 @@ package com.opencart.testCase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pageObjects.Addcart;
-import pageObjects.HomePage;
-import testBase.BaseClass;
+import com.opencart.pageObject.AddCart;
+import com.opencart.pageObject.HomePage;
+
+
 
 @Test
 public class TC_005_Addcart extends BaseClass
@@ -16,45 +17,41 @@ public class TC_005_Addcart extends BaseClass
 	 logger.info("Starting TC_005_Addcart");
 	 try
 	 {
-	 driver.get(rb.getString("appURL"));
+	 driver.get(url);
 	 HomePage hp=  new HomePage(driver);
 	 logger.info("Home Page Displayed ");
 	 
 	 driver.manage().window().maximize();
 		
-	 Addcart ac=new Addcart(driver);
+	 AddCart ac=new AddCart(driver);
 	  ac.search_txt("iMac");
 	  
-	  Thread.sleep(3000);
 		logger.info("Enter any Product"); 
 		
 		ac.search_button();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		logger.info("product displayed on HomePage");
 		
 		ac.addcart();
 		logger.info("product added to cart");
-		Thread.sleep(2000);//
-		ac.viewcart();
-		Thread.sleep(3000);
-		logger.info("product added to viewcart");
+		//Thread.sleep(2000);//
 		
-		ac.view();
-		Thread.sleep(3000);
-		logger.info("product added to view");
+		
+		
 		
 		 String confmg=ac.getConfirmationMsg();//
 		   
 		    if(confmg.equals("Success: You have added iMac to your shopping cart!"))
 	        	
 	 		{
-	        	 logger.info("Search page is Success ");
+	        	 logger.info("Add to cart is succussfull");
 	 			  Assert.assertTrue(true);
 	 		}
 	 		else
 	 		{
-	 			logger.error("Add cart  Page Failed ");
-				captureScreen(driver, "test_search"); 
+	 			logger.error("Add cart is Failed ");
+	 			captureScreen(driver, "test_addcart");
+				captureScreen(driver, "TC_005_Addcart"); 
 				
 				Assert.assertTrue(false);
 	 			
@@ -62,7 +59,7 @@ public class TC_005_Addcart extends BaseClass
 	    	}
 	    	catch(Exception e)
 	    	{
-	    	logger.fatal("Add cart  Failed");
+	    	logger.fatal("Add cart  Failed: "+e.getMessage());
 	    	Assert.fail();
 	    	
 	    	}

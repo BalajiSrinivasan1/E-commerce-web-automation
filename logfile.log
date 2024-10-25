@@ -698,3 +698,1372 @@ Session ID: f28c2ab1689a0262e2f0bf343862cb66
 2024-10-20 16:58:13,249 INFO  [E-CommerceAutomationProject] - Clicked on Login
 2024-10-20 16:58:14,324 INFO  [E-CommerceAutomationProject] - Login Success 
 2024-10-20 16:58:14,500 INFO  [E-CommerceAutomationProject] -  Finished TC_002_Login 
+2024-10-21 13:59:49,483 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:00:02,521 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:00:28,567 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:00:53,904 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51eb17eec7c7159bc0f8c98e2a960df6, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52607/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51eb17eec7c7159bc0f8c98e2a960df6
+2024-10-21 14:00:54,435 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:00:58,356 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:00:58,785 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:01:00,508 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:01:01,502 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:01:01,706 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:01:01,835 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:01:26,888 ERROR [E-CommerceAutomationProject] - Login Failed 
+2024-10-21 14:01:26,974 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:01:28,923 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:01:29,069 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:01:30,192 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:01:30,425 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:01:30,573 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:01:30,751 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:01:55,807 INFO  [E-CommerceAutomationProject] - Login Failed wrong credential but test case is passed
+2024-10-21 14:01:55,808 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-21 14:01:55,827 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:01:59,505 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:01:59,873 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:02:00,871 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:02:01,233 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:02:01,375 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:02:01,535 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:02:26,584 INFO  [E-CommerceAutomationProject] - Login Failed wrong credential but test case is passed
+2024-10-21 14:02:26,585 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-21 14:37:23,175 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:37:38,924 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:37:40,776 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:37:43,724 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:37:44,316 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:37:44,485 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:37:44,673 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:38:01,796 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-21 14:38:04,305 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:38:06,142 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:38:09,689 ERROR [E-CommerceAutomationProject] - Login Failed 
+2024-10-21 14:38:09,769 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:38:11,826 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:38:12,154 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:38:16,954 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:38:42,628 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:38:43,124 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:38:44,551 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:39:08,198 FATAL [E-CommerceAutomationProject] - Account Registration Failed: Unable to find element with locator By.linkText: Register
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: driver.version: RemoteWebDriver
+2024-10-21 14:39:08,369 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-21 14:39:08,392 FATAL [E-CommerceAutomationProject] - Account Registration Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9931d6c0931e92c42c0fd77e74ad6300, get {url=https://demo.opencart.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53233/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9931d6c0931e92c42c0fd77e74ad6300
+2024-10-21 14:39:08,541 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-21 14:39:08,587 FATAL [E-CommerceAutomationProject] - Account Registration Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9931d6c0931e92c42c0fd77e74ad6300, get {url=https://demo.opencart.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53233}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53233/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9931d6c0931e92c42c0fd77e74ad6300
+2024-10-21 14:39:09,584 ERROR [E-CommerceAutomationProject] - Login Failed 
+2024-10-21 14:39:09,615 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:39:12,533 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:39:12,560 FATAL [E-CommerceAutomationProject] - Login Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d050789149a5eec06563fbea9ab2b74, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53213/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d050789149a5eec06563fbea9ab2b74
+2024-10-21 14:39:12,576 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:39:12,590 FATAL [E-CommerceAutomationProject] - Login Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d050789149a5eec06563fbea9ab2b74, get {url=https://demo.opencart.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53213/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d050789149a5eec06563fbea9ab2b74
+2024-10-21 14:39:20,011 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:40:30,659 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-21 14:40:34,061 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:40:35,966 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:41:24,400 INFO  [E-CommerceAutomationProject] - Clicked on Register 
+2024-10-21 14:41:24,607 INFO  [E-CommerceAutomationProject] - Provided First Name 
+2024-10-21 14:41:24,757 INFO  [E-CommerceAutomationProject] - Provided Last Name 
+2024-10-21 14:41:24,941 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:41:25,100 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:41:25,275 INFO  [E-CommerceAutomationProject] - Set Privacy Policy 
+2024-10-21 14:41:25,440 INFO  [E-CommerceAutomationProject] - Clicked on Continue 
+2024-10-21 14:41:26,970 INFO  [E-CommerceAutomationProject] - Account Registration Success 
+2024-10-21 14:41:26,970 INFO  [E-CommerceAutomationProject] - Finished TC_001_AccountRegistration
+2024-10-21 14:41:27,048 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-21 14:41:28,448 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:41:28,609 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:42:38,230 INFO  [E-CommerceAutomationProject] - Clicked on Register 
+2024-10-21 14:42:38,409 INFO  [E-CommerceAutomationProject] - Provided First Name 
+2024-10-21 14:42:38,572 INFO  [E-CommerceAutomationProject] - Provided Last Name 
+2024-10-21 14:42:38,735 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:42:38,888 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:42:39,011 INFO  [E-CommerceAutomationProject] - Set Privacy Policy 
+2024-10-21 14:42:39,137 INFO  [E-CommerceAutomationProject] - Clicked on Continue 
+2024-10-21 14:42:40,903 INFO  [E-CommerceAutomationProject] - Account Registration Success 
+2024-10-21 14:42:40,903 INFO  [E-CommerceAutomationProject] - Finished TC_001_AccountRegistration
+2024-10-21 14:42:40,903 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-21 14:42:41,994 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:42:42,124 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:42:49,860 INFO  [E-CommerceAutomationProject] - Clicked on Register 
+2024-10-21 14:42:50,092 INFO  [E-CommerceAutomationProject] - Provided First Name 
+2024-10-21 14:42:50,243 INFO  [E-CommerceAutomationProject] - Provided Last Name 
+2024-10-21 14:42:50,448 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:42:50,643 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:42:50,780 INFO  [E-CommerceAutomationProject] - Set Privacy Policy 
+2024-10-21 14:42:50,898 INFO  [E-CommerceAutomationProject] - Clicked on Continue 
+2024-10-21 14:42:52,239 INFO  [E-CommerceAutomationProject] - Account Registration Success 
+2024-10-21 14:42:52,239 INFO  [E-CommerceAutomationProject] - Finished TC_001_AccountRegistration
+2024-10-21 14:43:00,151 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:43:04,954 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:43:15,498 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:43:44,592 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:43:45,752 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:43:45,925 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:43:46,062 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:43:47,879 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-21 14:44:13,123 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='list-group']//a[text()='Logout']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [207d541020a69f0417749696c3122ee2, findElement {value=//div[@class='list-group']//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58868/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 207d541020a69f0417749696c3122ee2
+2024-10-21 14:44:13,279 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:44:14,895 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:44:15,247 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:44:31,628 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:44:31,832 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:44:31,969 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:44:32,083 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:44:33,244 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-21 14:44:58,311 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='list-group']//a[text()='Logout']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [207d541020a69f0417749696c3122ee2, findElement {value=//div[@class='list-group']//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58868/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 207d541020a69f0417749696c3122ee2
+2024-10-21 14:44:58,327 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:44:59,123 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:44:59,632 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:45:00,654 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:45:00,890 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:45:01,037 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:45:01,155 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:45:26,211 INFO  [E-CommerceAutomationProject] - Login Failed wrong credential but test case is passed
+2024-10-21 14:45:26,211 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-21 14:45:26,211 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-21 14:45:28,918 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 14:45:29,115 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-21 14:45:29,990 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-21 14:45:30,216 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-21 14:45:30,354 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-21 14:45:30,463 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-21 14:45:55,479 INFO  [E-CommerceAutomationProject] - Login Failed wrong credential but test case is passed
+2024-10-21 14:45:55,479 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-21 19:55:17,244 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-21 19:55:22,472 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 19:55:26,122 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 19:55:51,724 FATAL [E-CommerceAutomationProject] - Search Failed 
+2024-10-21 20:01:56,855 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-21 20:02:15,253 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 20:02:18,752 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 20:02:43,993 FATAL [E-CommerceAutomationProject] - Search Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-default btn-lg']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4b4d30296e62d3125dc907c5c361a80, findElement {using=xpath, value=//button[@class='btn btn-default btn-lg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59872/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c4b4d30296e62d3125dc907c5c361a80
+2024-10-21 20:10:03,667 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-21 20:10:09,066 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 20:10:12,307 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 20:10:43,009 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-21 20:10:43,192 INFO  [E-CommerceAutomationProject] -  Finished TC_004Search 
+2024-10-21 20:17:46,125 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-21 20:18:12,935 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 20:18:21,344 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 20:18:55,601 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-21 20:18:55,714 INFO  [E-CommerceAutomationProject] -  Finished TC_004Search 
+2024-10-21 21:09:30,786 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-21 21:09:44,281 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 21:09:48,029 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 21:10:13,132 FATAL [E-CommerceAutomationProject] - Add cart  Failed
+2024-10-21 21:15:54,621 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-21 21:16:02,210 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 21:16:06,310 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 21:16:31,410 FATAL [E-CommerceAutomationProject] - Add cart  Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-default btn-lg']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62feccb852709cc6bb45c5e6548b9109, findElement {value=//button[@class='btn btn-default btn-lg'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60399/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62feccb852709cc6bb45c5e6548b9109
+2024-10-21 21:19:02,560 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-21 21:19:16,975 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 21:19:20,877 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 21:19:23,918 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-21 21:19:51,496 FATAL [E-CommerceAutomationProject] - Add cart  Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Add to Cart']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d5f38d0f2876fc21f7515bd3d6a4a64, findElement {using=xpath, value=//span[normalize-space()='Add to Cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60429/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d5f38d0f2876fc21f7515bd3d6a4a64
+2024-10-21 21:26:19,429 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-21 21:27:13,826 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 21:27:16,122 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 21:27:49,351 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-21 21:28:14,429 FATAL [E-CommerceAutomationProject] - Add cart  Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Add to Cart']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b7be1db3510cb266fcbdf539d13ae9, findElement {value=//button[@aria-label='Add to Cart'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60622}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60622/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b7be1db3510cb266fcbdf539d13ae9
+2024-10-21 21:30:48,835 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-21 21:31:47,862 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 21:31:53,822 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 21:33:01,006 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-21 21:33:29,789 FATAL [E-CommerceAutomationProject] - Add cart  Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Add to Cart']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97eb42477bdd0687e978192fd441c832, findElement {value=//button[@aria-label='Add to Cart'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60697/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97eb42477bdd0687e978192fd441c832
+2024-10-21 21:59:07,382 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-21 21:59:24,539 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-21 21:59:25,771 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-21 21:59:54,678 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-21 22:00:16,745 INFO  [E-CommerceAutomationProject] - product added to cart
+2024-10-21 22:00:41,820 FATAL [E-CommerceAutomationProject] - Add cart  Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e99315e4d2c10fc229ec79d84194b421, findElement {value=//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63553/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e99315e4d2c10fc229ec79d84194b421
+2024-10-22 10:09:01,203 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-22 10:09:30,192 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 10:09:40,295 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 10:09:47,384 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-22 10:09:49,141 INFO  [E-CommerceAutomationProject] - product added to cart
+2024-10-22 10:09:51,510 INFO  [E-CommerceAutomationProject] - Add to cart is succussfull
+2024-10-22 10:09:51,532 INFO  [E-CommerceAutomationProject] - Finished TC_005_Addcart
+2024-10-22 10:30:08,803 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-22 10:30:14,004 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 10:30:16,004 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 10:33:38,610 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-22 10:33:43,504 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 10:33:53,508 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 10:33:53,511 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-22 15:08:35,120 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-22 15:09:41,125 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 15:09:52,891 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 15:09:52,891 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-22 15:09:56,322 INFO  [E-CommerceAutomationProject] - products comparing
+2024-10-22 15:24:22,057 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-22 15:25:11,700 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 15:25:22,391 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 15:25:22,392 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-22 15:25:25,624 INFO  [E-CommerceAutomationProject] -  add to products comparing
+2024-10-22 15:34:14,128 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-22 15:34:31,952 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 15:34:36,680 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 15:34:36,681 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-22 15:34:38,704 INFO  [E-CommerceAutomationProject] -  add to products comparing
+2024-10-22 15:34:40,271 INFO  [E-CommerceAutomationProject] - click on product comparing
+2024-10-22 16:38:26,312 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-22 16:38:43,384 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 16:38:49,188 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 16:39:14,303 FATAL [E-CommerceAutomationProject] - WishList Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-default btn-lg']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [60109b3156f71b0194fc5742429f6997, findElement {value=//button[@class='btn btn-default btn-lg'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53057/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60109b3156f71b0194fc5742429f6997
+2024-10-22 19:50:37,759 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-22 19:50:44,369 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 19:50:52,385 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 19:51:21,196 FATAL [E-CommerceAutomationProject] - WishList Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']//i[@class='fa fa-heart']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a7ad9179b7e95e0216d8b851ab7624c, findElement {value=//button[@type='button']//i[@class='fa fa-heart'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57416/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a7ad9179b7e95e0216d8b851ab7624c
+2024-10-22 21:17:15,499 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-22 21:17:26,737 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 21:17:27,847 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 21:18:03,836 FATAL [E-CommerceAutomationProject] - WishList Failed: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@type='submit'])[2]"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb1a20ea7858697760e2f33cd33184a5, findElement {using=xpath, value=(//button[@type='submit'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58465/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb1a20ea7858697760e2f33cd33184a5
+2024-10-22 21:37:36,372 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-22 21:38:08,634 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 21:38:14,746 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 21:38:52,497 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-22 21:38:53,581 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-22 21:38:53,946 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-22 21:38:54,082 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-22 21:38:54,433 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-22 21:38:55,524 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-22 21:39:20,854 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-22 21:39:21,213 INFO  [E-CommerceAutomationProject] -  Finished TC_007_WishList 
+2024-10-22 21:44:55,481 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-22 21:45:12,414 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 21:45:17,101 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 21:45:21,133 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-22 21:45:22,299 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-22 21:45:23,015 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-22 21:45:23,216 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-22 21:45:23,957 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-22 21:45:25,295 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-22 21:45:26,223 INFO  [E-CommerceAutomationProject] - WishList is Failed 
+2024-10-22 21:55:54,667 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-22 21:56:22,424 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 21:56:23,709 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 21:56:28,731 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-22 21:56:31,881 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-22 21:56:32,392 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-22 21:56:32,550 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-22 21:56:32,892 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-22 21:56:34,170 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-22 21:56:35,744 INFO  [E-CommerceAutomationProject] - WishList is Failed 
+2024-10-22 22:15:16,731 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-22 22:15:22,583 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 22:15:23,154 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 22:15:26,791 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-22 22:15:28,445 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-22 22:15:28,660 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-22 22:15:28,786 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-22 22:15:29,003 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-22 22:15:30,156 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-22 22:15:53,022 ERROR [E-CommerceAutomationProject] - wishList is Success 
+2024-10-22 22:15:53,022 INFO  [E-CommerceAutomationProject] -  Finished TC_007_WishList 
+2024-10-22 22:17:53,027 INFO  [E-CommerceAutomationProject] - Starting TC_008_ProductDisplayPage
+2024-10-22 22:17:56,904 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-22 22:17:57,192 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-22 22:18:01,244 INFO  [E-CommerceAutomationProject] - click the search button
+2024-10-22 22:18:13,290 INFO  [E-CommerceAutomationProject] - click the image
+2024-10-22 22:18:15,564 INFO  [E-CommerceAutomationProject] - click the Product
+2024-10-22 22:18:40,510 INFO  [E-CommerceAutomationProject] - click the Product Review
+2024-10-22 22:18:40,624 INFO  [E-CommerceAutomationProject] - ProductDisplayPage  success 
+2024-10-22 22:18:40,738 INFO  [E-CommerceAutomationProject] -  Finished TC_008_ProductDisplayPage
+2024-10-23 15:05:38,073 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 15:06:04,911 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 15:06:12,553 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 15:06:26,138 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 15:22:52,742 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 15:23:05,320 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 15:23:12,488 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 15:23:16,399 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 15:23:17,792 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-23 15:23:19,421 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-23 15:26:46,696 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 15:26:57,889 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 15:27:04,246 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 15:27:08,967 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 15:27:09,627 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-23 15:27:15,288 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-23 16:13:02,777 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 16:13:23,927 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 16:13:26,944 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 16:13:53,851 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 16:13:56,349 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-23 16:14:09,483 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-23 16:20:31,832 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 16:20:35,701 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 16:20:37,861 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 16:20:45,611 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 16:21:09,095 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-23 16:21:10,600 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-23 16:28:45,887 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 16:28:51,270 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 16:28:52,453 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 16:28:53,621 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 16:28:53,829 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-23 16:28:56,375 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-23 16:51:56,096 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 16:52:46,647 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 16:52:49,291 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 16:52:57,783 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 16:52:59,648 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-23 16:53:12,105 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-23 16:53:37,420 INFO  [E-CommerceAutomationProject] - Estimated Shipping and Taxes clicked
+2024-10-23 16:53:38,186 INFO  [E-CommerceAutomationProject] - Selected Country
+2024-10-23 18:45:08,959 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 18:45:52,631 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 18:46:05,806 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 18:46:15,491 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 18:46:15,944 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-23 18:47:40,896 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-23 19:00:50,468 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 19:03:20,029 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 19:03:20,447 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 19:05:05,163 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-23 19:05:05,568 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-23 19:05:18,543 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-23 19:05:43,822 INFO  [E-CommerceAutomationProject] - Estimated Shipping and Taxes clicked
+2024-10-23 19:05:44,307 INFO  [E-CommerceAutomationProject] - Selected Country
+2024-10-23 20:13:11,282 INFO  [E-CommerceAutomationProject] - Starting TC_009_ForgotPassword
+2024-10-23 20:13:56,641 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 20:13:57,426 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 20:14:16,233 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-23 20:14:16,783 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-23 20:14:58,360 INFO  [E-CommerceAutomationProject] - Provided confirmation email
+2024-10-23 20:34:23,333 INFO  [E-CommerceAutomationProject] - Starting TC_009_ForgotPassword
+2024-10-23 20:34:35,626 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 20:34:38,384 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 20:41:04,096 INFO  [E-CommerceAutomationProject] - Starting TC_009_ForgotPassword
+2024-10-23 20:41:11,672 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 20:41:22,458 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 20:42:18,195 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-23 20:42:19,677 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-23 20:42:19,803 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-23 20:42:21,275 INFO  [E-CommerceAutomationProject] - Provided confirmation email
+2024-10-23 20:51:57,335 INFO  [E-CommerceAutomationProject] - Starting TC_009_ForgotPassword
+2024-10-23 20:52:07,578 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 20:52:12,403 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 20:52:14,917 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-23 20:52:17,153 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-23 20:52:17,545 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-23 20:52:20,740 INFO  [E-CommerceAutomationProject] - Provided confirmation email
+2024-10-23 20:52:23,492 INFO  [E-CommerceAutomationProject] - forget password is successfull
+2024-10-23 20:52:23,547 INFO  [E-CommerceAutomationProject] - Finished TC_009_ForgotPassword
+2024-10-23 20:56:03,933 INFO  [E-CommerceAutomationProject] - Starting TC_008_ProductDisplayPage
+2024-10-23 20:56:28,459 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 20:56:34,458 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-23 20:56:37,282 INFO  [E-CommerceAutomationProject] - click the search button
+2024-10-23 20:56:40,133 INFO  [E-CommerceAutomationProject] - click the image
+2024-10-23 20:56:51,279 INFO  [E-CommerceAutomationProject] - click the Product
+2024-10-23 20:57:09,864 INFO  [E-CommerceAutomationProject] - click the Product Review
+2024-10-23 20:57:09,949 INFO  [E-CommerceAutomationProject] - ProductDisplayPage  success 
+2024-10-23 20:57:09,968 INFO  [E-CommerceAutomationProject] -  Finished TC_008_ProductDisplayPage
+2024-10-23 21:38:26,527 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-23 21:38:41,770 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 21:38:44,827 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 21:38:52,761 INFO  [E-CommerceAutomationProject] - Clicked on Register 
+2024-10-23 21:38:56,694 INFO  [E-CommerceAutomationProject] - Provided First Name 
+2024-10-23 21:38:57,311 INFO  [E-CommerceAutomationProject] - Provided Last Name 
+2024-10-23 21:38:57,685 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-23 21:38:58,177 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-23 21:38:58,622 INFO  [E-CommerceAutomationProject] - Set Privacy Policy 
+2024-10-23 21:39:00,077 INFO  [E-CommerceAutomationProject] - Clicked on Continue 
+2024-10-23 21:39:25,222 ERROR [E-CommerceAutomationProject] - Account Registration Failed 
+2024-10-23 21:39:27,276 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-23 21:39:39,682 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 21:39:39,861 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 21:39:56,662 INFO  [E-CommerceAutomationProject] - Clicked on Register 
+2024-10-23 21:40:19,305 FATAL [E-CommerceAutomationProject] - Account Registration Failed: Unable to find element with locator By.name: firstname
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: driver.version: RemoteWebDriver
+2024-10-23 21:40:19,314 INFO  [E-CommerceAutomationProject] - Strating TC_001_AccountRegistration
+2024-10-23 21:40:19,330 FATAL [E-CommerceAutomationProject] - Account Registration Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bd63c66ab04d3519076ca2d349ab3fc, get {url=https://demo.opencart.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55723/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bd63c66ab04d3519076ca2d349ab3fc
+2024-10-23 21:55:23,064 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-23 21:55:47,404 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 21:56:08,025 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 21:58:22,723 FATAL [E-CommerceAutomationProject] - Login is Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [265c2cd405a0fa2685ec47da4c347e5f, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56018}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56018/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 265c2cd405a0fa2685ec47da4c347e5f
+2024-10-23 21:58:39,972 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-23 21:58:55,844 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 21:58:56,193 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 21:59:17,523 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-23 21:59:17,801 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-23 21:59:17,953 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-23 21:59:18,097 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-23 21:59:42,105 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-23 22:00:07,231 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='list-group']//a[text()='Logout']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9202ec0e081264f675a4b6cb51584e55, findElement {using=xpath, value=//div[@class='list-group']//a[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56068}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56068/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9202ec0e081264f675a4b6cb51584e55
+2024-10-23 22:00:07,231 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-23 22:00:32,447 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:00:32,693 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 22:02:13,653 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9202ec0e081264f675a4b6cb51584e55, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56068}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56068/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9202ec0e081264f675a4b6cb51584e55
+2024-10-23 22:02:13,669 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-23 22:02:16,820 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:02:17,088 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 22:02:47,543 FATAL [E-CommerceAutomationProject] - Login Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9202ec0e081264f675a4b6cb51584e55, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56068}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56068/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9202ec0e081264f675a4b6cb51584e55
+2024-10-23 22:02:47,543 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-23 22:02:47,567 FATAL [E-CommerceAutomationProject] - Login Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9202ec0e081264f675a4b6cb51584e55, get {url=https://demo.opencart.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56068}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56068/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9202ec0e081264f675a4b6cb51584e55
+2024-10-23 22:02:54,657 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-23 22:03:02,989 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:03:03,522 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-23 22:03:30,434 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-23 22:03:30,434 INFO  [E-CommerceAutomationProject] -  Finished TC_004Search 
+2024-10-23 22:03:45,053 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-23 22:04:02,588 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:04:02,853 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-23 22:04:06,537 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-23 22:04:07,013 INFO  [E-CommerceAutomationProject] - product added to cart
+2024-10-23 22:04:09,736 INFO  [E-CommerceAutomationProject] - Add to cart is succussfull
+2024-10-23 22:04:09,736 INFO  [E-CommerceAutomationProject] - Finished TC_005_Addcart
+2024-10-23 22:04:17,231 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-23 22:04:30,773 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:04:35,246 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-23 22:04:35,246 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-23 22:04:36,237 INFO  [E-CommerceAutomationProject] -  add to products comparing
+2024-10-23 22:04:40,772 INFO  [E-CommerceAutomationProject] - click on product comparing
+2024-10-23 22:04:54,823 INFO  [E-CommerceAutomationProject] - product comparing is success
+2024-10-23 22:04:54,823 INFO  [E-CommerceAutomationProject] - Finesg TC_006_ProductCompare
+2024-10-23 22:05:05,710 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-23 22:05:15,852 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:05:16,039 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-23 22:05:38,875 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 22:07:19,841 FATAL [E-CommerceAutomationProject] - WishList Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fde47b44365d40255905833d52158fc3, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56200/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fde47b44365d40255905833d52158fc3
+2024-10-23 22:07:26,143 INFO  [E-CommerceAutomationProject] - Starting TC_008_ProductDisplayPage
+2024-10-23 22:07:30,686 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:07:31,136 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-23 22:07:32,975 INFO  [E-CommerceAutomationProject] - click the search button
+2024-10-23 22:08:00,602 INFO  [E-CommerceAutomationProject] - click the image
+2024-10-23 22:08:02,188 INFO  [E-CommerceAutomationProject] - click the Product
+2024-10-23 22:08:02,502 INFO  [E-CommerceAutomationProject] - click the Product Review
+2024-10-23 22:08:02,589 INFO  [E-CommerceAutomationProject] - ProductDisplayPage  success 
+2024-10-23 22:08:02,589 INFO  [E-CommerceAutomationProject] -  Finished TC_008_ProductDisplayPage
+2024-10-23 22:08:11,010 INFO  [E-CommerceAutomationProject] - Starting TC_009_ForgotPassword
+2024-10-23 22:08:17,877 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:08:29,460 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-23 22:10:18,499 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-23 22:10:24,354 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-23 22:10:24,868 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-23 22:10:33,328 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 10:50:53,008 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 10:51:08,991 FATAL [E-CommerceAutomationProject] - Login is Failed: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0f236c8a585bea7a3f7da550ed5f63b, get {url=https://demo.opencart.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56354/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0f236c8a585bea7a3f7da550ed5f63b
+2024-10-24 11:12:02,287 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 11:12:20,216 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 11:12:28,961 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 11:14:09,852 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6150456f79c22e3e010b92003fa8ea40, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56583/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6150456f79c22e3e010b92003fa8ea40
+2024-10-24 11:14:17,822 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 11:14:20,842 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 11:14:23,595 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 11:14:25,611 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 11:14:26,356 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 11:14:26,528 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 11:14:27,143 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 11:14:28,465 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 11:14:53,629 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='list-group']//a[text()='Logout']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6150456f79c22e3e010b92003fa8ea40, findElement {using=xpath, value=//div[@class='list-group']//a[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56583/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6150456f79c22e3e010b92003fa8ea40
+2024-10-24 11:14:53,634 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 11:14:55,142 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 11:14:55,387 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 11:16:36,346 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6150456f79c22e3e010b92003fa8ea40, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56583/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6150456f79c22e3e010b92003fa8ea40
+2024-10-24 11:16:36,350 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 11:16:38,864 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 11:16:39,085 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 11:18:19,942 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6150456f79c22e3e010b92003fa8ea40, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56583/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6150456f79c22e3e010b92003fa8ea40
+2024-10-24 11:18:33,061 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-24 11:18:39,154 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 11:18:39,718 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 11:19:06,963 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-24 11:19:06,964 INFO  [E-CommerceAutomationProject] -  Finished TC_004Search 
+2024-10-24 11:19:32,206 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-24 11:19:39,076 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 11:19:39,773 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 11:19:42,660 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-24 11:19:55,095 INFO  [E-CommerceAutomationProject] - product added to cart
+2024-10-24 11:19:55,497 INFO  [E-CommerceAutomationProject] - Add to cart is succussfull
+2024-10-24 11:19:55,497 INFO  [E-CommerceAutomationProject] - Finished TC_005_Addcart
+2024-10-24 11:20:04,380 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-24 11:20:21,660 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 11:20:23,761 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 11:20:23,762 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-24 12:41:28,190 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-24 12:42:06,151 FATAL [E-CommerceAutomationProject] - WishList Failed: Error communicating with the remote browser. It may have died.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3478a2f12c8ff6b3f10c6b0ba2191810, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56698/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3478a2f12c8ff6b3f10c6b0ba2191810
+2024-10-24 12:42:15,964 INFO  [E-CommerceAutomationProject] - Starting TC_008_ProductDisplayPage
+2024-10-24 12:42:26,997 FATAL [E-CommerceAutomationProject] - ProductDisplayPage  Failed 
+2024-10-24 13:05:07,636 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 13:05:30,491 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:05:30,853 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 13:06:11,688 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 13:06:11,937 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 13:06:12,090 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 13:06:12,283 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 13:06:37,359 ERROR [E-CommerceAutomationProject] - Login is Failed 
+2024-10-24 13:07:03,093 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 13:07:15,017 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:07:34,294 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 13:08:24,826 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 13:08:25,040 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 13:08:25,192 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 13:08:25,330 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 13:08:35,944 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 13:09:01,071 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='list-group']//a[text()='Logout']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b19a1678a5e324f2d69b5d373a413e3, findElement {using=xpath, value=//div[@class='list-group']//a[text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56864/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b19a1678a5e324f2d69b5d373a413e3
+2024-10-24 13:09:01,087 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 13:09:02,570 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:09:02,817 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 13:10:43,727 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b19a1678a5e324f2d69b5d373a413e3, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56864/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b19a1678a5e324f2d69b5d373a413e3
+2024-10-24 13:10:43,727 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 13:10:46,112 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:10:46,304 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 13:11:16,784 FATAL [E-CommerceAutomationProject] - Login Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b19a1678a5e324f2d69b5d373a413e3, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56864/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b19a1678a5e324f2d69b5d373a413e3
+2024-10-24 13:11:16,799 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 13:11:16,835 FATAL [E-CommerceAutomationProject] - Login Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b19a1678a5e324f2d69b5d373a413e3, get {url=https://demo.opencart.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56864/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b19a1678a5e324f2d69b5d373a413e3
+2024-10-24 13:11:27,983 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-24 13:11:31,074 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:11:31,435 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 13:11:58,710 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-24 13:11:58,710 INFO  [E-CommerceAutomationProject] -  Finished TC_004Search 
+2024-10-24 13:12:09,466 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-24 13:12:15,645 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:12:16,115 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 13:12:17,768 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-24 13:12:18,174 INFO  [E-CommerceAutomationProject] - product added to cart
+2024-10-24 13:12:43,223 ERROR [E-CommerceAutomationProject] - Add cart is Failed 
+2024-10-24 13:12:52,481 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-24 13:12:56,877 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:12:58,946 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 13:12:58,946 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-24 13:13:09,446 INFO  [E-CommerceAutomationProject] -  add to products comparing
+2024-10-24 13:13:10,228 INFO  [E-CommerceAutomationProject] - click on product comparing
+2024-10-24 13:13:10,297 INFO  [E-CommerceAutomationProject] - product comparing is success
+2024-10-24 13:13:10,297 INFO  [E-CommerceAutomationProject] - Finesg TC_006_ProductCompare
+2024-10-24 13:13:14,036 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-24 13:13:25,126 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:13:25,332 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 13:13:28,676 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 13:13:29,952 FATAL [E-CommerceAutomationProject] - WishList Failed: element click intercepted: Element <a href="https://demo.opencart.com/en-gb?route=account/login" class="dropdown-item">...</a> is not clickable at point (919, 69). Other element would receive the click: <div class="alert alert-success alert-dismissible">...</div>
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2cdcbc240fcd531015c6c88749194172, clickElement {id=ab555618-8bc0-4740-bb40-0626aeca78b7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56978/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2cdcbc240fcd531015c6c88749194172)] -> link text: Login]
+Session ID: 2cdcbc240fcd531015c6c88749194172
+2024-10-24 13:13:36,028 INFO  [E-CommerceAutomationProject] - Starting TC_008_ProductDisplayPage
+2024-10-24 13:13:48,559 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:13:49,041 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 13:13:51,688 INFO  [E-CommerceAutomationProject] - click the search button
+2024-10-24 13:13:54,045 INFO  [E-CommerceAutomationProject] - click the image
+2024-10-24 13:13:55,229 INFO  [E-CommerceAutomationProject] - click the Product
+2024-10-24 13:13:55,422 INFO  [E-CommerceAutomationProject] - click the Product Review
+2024-10-24 13:13:55,487 INFO  [E-CommerceAutomationProject] - ProductDisplayPage  success 
+2024-10-24 13:13:55,487 INFO  [E-CommerceAutomationProject] -  Finished TC_008_ProductDisplayPage
+2024-10-24 13:14:04,800 INFO  [E-CommerceAutomationProject] - Starting TC_009_ForgotPassword
+2024-10-24 13:14:13,676 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:14:15,730 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 13:16:04,207 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 13:16:15,215 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 13:16:15,747 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-24 13:16:19,757 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 16:45:52,341 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 16:46:10,340 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 16:46:22,356 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 16:48:03,317 FATAL [E-CommerceAutomationProject] - Login is Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7422137fcf15f551784468979f1d3092, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57174/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7422137fcf15f551784468979f1d3092
+2024-10-24 16:54:16,872 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 16:55:31,039 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 16:55:32,171 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 16:55:55,485 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 16:55:55,720 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 16:55:55,889 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 16:55:56,039 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 16:56:16,758 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 16:56:16,802 INFO  [E-CommerceAutomationProject] -  Finished TC_002_Login 
+2024-10-24 16:59:33,779 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-24 16:59:39,472 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 16:59:41,119 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 17:00:17,077 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-24 17:00:17,120 INFO  [E-CommerceAutomationProject] -  Finished TC_004Search 
+2024-10-24 17:06:21,647 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 17:09:53,970 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 17:10:06,209 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 17:10:57,846 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 17:11:12,210 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 17:11:12,433 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 17:11:12,582 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 17:11:12,737 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 17:11:15,709 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 17:11:15,709 INFO  [E-CommerceAutomationProject] -  Finished TC_002_Login 
+2024-10-24 17:12:49,702 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 17:12:57,987 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 17:12:58,260 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 17:13:02,625 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 17:13:29,780 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 17:13:29,938 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 17:13:30,088 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 17:13:36,658 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 17:13:36,705 INFO  [E-CommerceAutomationProject] -  Finished TC_002_Login 
+2024-10-24 17:14:00,007 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 17:14:05,891 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 17:14:06,180 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 17:14:18,258 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 17:14:43,324 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-email']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6c4f34d6b91ec0581d285f1a07e0410, findElement {value=//input[@id='input-email'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57698/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6c4f34d6b91ec0581d285f1a07e0410
+2024-10-24 17:14:43,484 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 17:14:52,914 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 17:14:53,133 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 17:14:54,508 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 17:14:54,719 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 17:14:54,858 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 17:14:54,980 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 17:14:58,382 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 17:15:23,467 FATAL [E-CommerceAutomationProject] - Login Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='list-group']//a[text()='Logout']"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6c4f34d6b91ec0581d285f1a07e0410, findElement {value=//div[@class='list-group']//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57698/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6c4f34d6b91ec0581d285f1a07e0410
+2024-10-24 17:15:23,467 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 17:15:26,101 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 17:15:26,376 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 17:15:56,896 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 17:15:57,163 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 17:15:57,315 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 17:15:57,441 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 18:01:39,448 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 18:01:50,629 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:04:02,500 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 18:05:24,866 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:05:36,463 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:05:38,929 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 18:05:39,849 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:05:39,978 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 18:05:40,311 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 18:05:41,404 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 18:05:43,299 INFO  [E-CommerceAutomationProject] -  Finished TC_002_Login 
+2024-10-24 18:30:24,563 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 18:30:53,381 FATAL [E-CommerceAutomationProject] - Login is Failed: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba1e28e951280c491fe6878c7b304e73, get {url=https://demo.opencart.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49241/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba1e28e951280c491fe6878c7b304e73
+2024-10-24 18:36:23,722 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 18:36:28,961 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:36:33,830 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:38:23,250 FATAL [E-CommerceAutomationProject] - Login is Failed: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14880922fd0016e21ec823eaf0898231, findElement {value=Login, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49327/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14880922fd0016e21ec823eaf0898231
+2024-10-24 18:42:17,008 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 18:42:30,623 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:42:37,763 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:42:40,168 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 18:42:43,203 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:42:43,464 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 18:42:44,177 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 18:42:45,574 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 18:42:52,674 INFO  [E-CommerceAutomationProject] -  Finished TC_002_Login 
+2024-10-24 18:46:52,527 INFO  [E-CommerceAutomationProject] -  Starting TC_002_Login 
+2024-10-24 18:46:55,689 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:46:57,487 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:47:31,059 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 18:47:33,541 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:47:33,970 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 18:47:35,685 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 18:47:37,466 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 18:47:40,328 INFO  [E-CommerceAutomationProject] -  Finished TC_002_Login 
+2024-10-24 18:47:59,564 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 18:48:02,673 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:48:06,603 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:48:37,216 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 18:48:54,457 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:48:54,566 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 18:48:54,659 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 18:48:55,666 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 18:48:57,672 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-24 18:48:57,680 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 18:48:59,392 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:49:11,107 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:49:12,344 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 18:49:12,493 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:49:12,597 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 18:49:12,697 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 18:49:14,277 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 18:49:15,990 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-24 18:49:16,005 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 18:49:16,849 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:49:17,010 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:49:17,739 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 18:49:17,908 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:49:18,008 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 18:49:18,093 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 18:49:43,164 INFO  [E-CommerceAutomationProject] - Login Failed wrong credential but test case is passed
+2024-10-24 18:49:43,164 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-24 18:49:43,164 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-24 18:49:44,329 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:49:44,638 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:49:45,546 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 18:49:45,713 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:49:45,862 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 18:49:45,967 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 18:50:11,032 INFO  [E-CommerceAutomationProject] - Login Failed wrong credential but test case is passed
+2024-10-24 18:50:11,032 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-24 18:50:23,272 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-24 18:50:35,825 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:50:35,984 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 18:51:03,328 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-24 18:51:03,328 INFO  [E-CommerceAutomationProject] -  Finished TC_004Search 
+2024-10-24 18:51:09,766 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-24 18:51:14,894 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:51:15,087 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 18:51:17,423 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-24 18:51:28,619 INFO  [E-CommerceAutomationProject] - product added to cart
+2024-10-24 18:51:29,089 INFO  [E-CommerceAutomationProject] - Add to cart is succussfull
+2024-10-24 18:51:29,089 INFO  [E-CommerceAutomationProject] - Finished TC_005_Addcart
+2024-10-24 18:51:36,745 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-24 18:51:46,036 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:51:48,067 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 18:51:48,067 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-24 18:51:59,530 INFO  [E-CommerceAutomationProject] -  add to products comparing
+2024-10-24 18:52:01,837 INFO  [E-CommerceAutomationProject] - click on product comparing
+2024-10-24 18:52:13,884 INFO  [E-CommerceAutomationProject] - product comparing is success
+2024-10-24 18:52:13,884 INFO  [E-CommerceAutomationProject] - Finesg TC_006_ProductCompare
+2024-10-24 18:52:18,379 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-24 18:52:22,661 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:52:22,794 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 18:54:05,001 FATAL [E-CommerceAutomationProject] - WishList Failed: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@data-bs-toggle='dropdown'])[2]"}
+  (Session info: chrome=109.0.5414.168)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf7d8dc684d495e553153b0da9da6cbb, findElement {value=(//a[@data-bs-toggle='dropdown'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49886}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49886/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf7d8dc684d495e553153b0da9da6cbb
+2024-10-24 18:54:10,241 INFO  [E-CommerceAutomationProject] - Starting TC_008_ProductDisplayPage
+2024-10-24 18:54:16,195 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:54:16,362 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 18:54:18,437 INFO  [E-CommerceAutomationProject] - click the search button
+2024-10-24 18:54:29,544 INFO  [E-CommerceAutomationProject] - click the image
+2024-10-24 18:54:42,749 INFO  [E-CommerceAutomationProject] - click the Product
+2024-10-24 18:54:42,857 INFO  [E-CommerceAutomationProject] - click the Product Review
+2024-10-24 18:54:42,897 INFO  [E-CommerceAutomationProject] - ProductDisplayPage  success 
+2024-10-24 18:54:42,897 INFO  [E-CommerceAutomationProject] -  Finished TC_008_ProductDisplayPage
+2024-10-24 18:54:49,352 INFO  [E-CommerceAutomationProject] - Starting TC_009_ForgotPassword
+2024-10-24 18:54:56,712 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:54:58,493 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 18:55:51,141 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 18:55:51,326 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:55:51,462 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 18:55:52,722 INFO  [E-CommerceAutomationProject] - Provided confirmation email
+2024-10-24 18:55:53,815 INFO  [E-CommerceAutomationProject] - forget password is successfull
+2024-10-24 18:55:53,815 INFO  [E-CommerceAutomationProject] - Finished TC_009_ForgotPassword
+2024-10-24 18:56:02,015 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 18:56:08,681 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 18:56:08,889 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-24 18:56:08,966 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 18:56:10,491 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-24 19:08:32,859 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-24 19:08:43,160 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 19:08:46,453 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 19:08:50,988 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 19:08:56,025 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 19:08:57,294 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 19:08:57,538 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 19:08:58,569 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 19:08:59,954 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 19:09:01,132 INFO  [E-CommerceAutomationProject] - WishList is Failed 
+2024-10-24 19:14:12,298 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-24 19:14:19,655 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 19:14:23,491 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 19:14:26,936 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 19:14:30,118 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 19:14:30,345 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 19:14:30,550 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 19:14:31,058 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 19:14:56,220 ERROR [E-CommerceAutomationProject] - Login is Failed 
+2024-10-24 19:20:49,089 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-24 19:20:59,127 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 19:21:02,673 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 19:21:06,488 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 19:21:07,960 FATAL [E-CommerceAutomationProject] - WishList Failed: element click intercepted: Element <a href="https://demo.opencart.com/en-gb?route=account/login" class="dropdown-item">...</a> is not clickable at point (919, 69). Other element would receive the click: <div class="alert alert-success alert-dismissible">...</div>
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ae955e4e056dd3e6a92f0473ec3d0f4, clickElement {id=3618870b-cfe7-4159-9090-2b221441bd49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50163/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1ae955e4e056dd3e6a92f0473ec3d0f4)] -> link text: Login]
+Session ID: 1ae955e4e056dd3e6a92f0473ec3d0f4
+2024-10-24 19:23:22,519 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-24 19:23:26,708 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 19:23:27,164 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 19:23:54,397 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 19:23:55,731 FATAL [E-CommerceAutomationProject] - WishList Failed: element click intercepted: Element <a href="https://demo.opencart.com/en-gb?route=account/login" class="dropdown-item">...</a> is not clickable at point (919, 69). Other element would receive the click: <div class="alert alert-success alert-dismissible" style="opacity: 0.966414;">...</div>
+  (Session info: chrome=109.0.5414.168)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a74935a692dd52a69391d0e9ceab08e2, clickElement {id=57cedd73-37e8-4ab3-b9a9-a395a82afd5f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\bala\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50204/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a74935a692dd52a69391d0e9ceab08e2)] -> link text: Login]
+Session ID: a74935a692dd52a69391d0e9ceab08e2
+2024-10-24 19:47:53,328 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-24 19:47:56,951 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 19:47:57,525 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-24 19:48:17,596 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 19:48:18,948 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 19:48:22,973 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 19:48:23,608 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 19:48:24,451 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 19:48:26,373 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 19:48:27,708 ERROR [E-CommerceAutomationProject] - wishList is Success 
+2024-10-24 19:48:27,709 INFO  [E-CommerceAutomationProject] -  Finished TC_007_WishList 
+2024-10-24 19:54:22,760 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 19:54:26,672 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 19:54:28,434 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-24 19:54:37,135 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 19:54:54,826 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-24 19:54:56,797 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-24 19:55:24,376 INFO  [E-CommerceAutomationProject] - check out is faild
+2024-10-24 19:58:53,737 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 19:58:58,083 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 19:59:00,842 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 20:01:19,809 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 20:01:24,401 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 20:01:34,472 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 20:01:58,346 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 20:01:58,623 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 20:01:58,787 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 20:01:59,015 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 20:02:00,213 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 20:02:00,426 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-24 20:02:01,927 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 20:10:03,043 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 20:10:08,162 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 20:10:10,904 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 20:11:20,039 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 20:11:20,310 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 20:11:20,476 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 20:11:20,797 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 20:11:22,559 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 20:11:22,917 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-24 20:11:23,893 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 20:14:30,063 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 20:14:33,285 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 20:14:35,700 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 20:15:05,895 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 20:15:15,471 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 20:15:15,670 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 20:15:15,825 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 20:15:16,911 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 20:15:17,073 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-24 20:15:18,050 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 20:15:18,895 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-24 20:15:19,830 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-24 20:15:48,022 INFO  [E-CommerceAutomationProject] - check out is faild
+2024-10-24 21:09:32,439 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 21:09:46,782 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 21:09:56,223 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 21:10:30,369 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 21:10:33,398 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 21:10:33,850 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 21:10:34,829 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 21:10:36,539 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 21:10:36,829 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-24 21:10:42,245 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 21:10:43,128 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-24 21:10:44,571 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-24 21:59:06,676 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-24 21:59:19,799 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-24 21:59:26,927 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-24 21:59:29,266 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-24 21:59:31,584 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-24 21:59:32,193 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-24 21:59:32,913 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-24 21:59:36,886 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-24 21:59:37,590 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-24 21:59:40,517 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-24 21:59:41,226 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-24 21:59:45,817 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-24 22:00:15,312 INFO  [E-CommerceAutomationProject] - check out is
+2024-10-25 11:58:22,167 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 11:58:39,140 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 11:58:43,873 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 11:58:48,296 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 11:58:49,826 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 11:58:50,159 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 11:58:50,837 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 11:58:53,717 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 11:58:54,033 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 11:58:55,601 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 12:01:46,264 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 12:01:56,049 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 12:02:01,540 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 12:02:52,127 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 12:02:52,552 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 12:02:52,727 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 12:02:53,184 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 12:02:55,765 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 12:02:58,992 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 12:03:00,255 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 12:08:41,505 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 12:08:45,017 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 12:08:47,521 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 12:08:55,655 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 12:09:09,033 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 12:09:09,142 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 12:09:09,245 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 12:09:10,337 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 12:09:10,455 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 12:09:11,212 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 12:09:11,794 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 12:09:12,623 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 12:10:03,560 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 12:10:25,629 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-25 12:10:26,039 INFO  [E-CommerceAutomationProject] - shipping methode choose is clicked
+2024-10-25 12:10:27,221 INFO  [E-CommerceAutomationProject] - payment methode choose is clicked
+2024-10-25 12:28:56,059 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 12:29:05,433 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 12:29:15,724 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 12:30:06,963 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 12:30:14,098 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 12:30:14,731 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 12:30:15,349 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 12:30:17,155 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 12:30:20,089 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 12:30:21,357 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 12:30:22,991 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 12:30:24,075 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 12:30:52,895 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 12:30:53,249 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-25 12:30:54,472 INFO  [E-CommerceAutomationProject] - shipping methode choose is clicked
+2024-10-25 12:30:55,400 INFO  [E-CommerceAutomationProject] - payment methode choose is clicked
+2024-10-25 12:54:53,834 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 12:55:32,614 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 12:55:43,384 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 12:55:48,827 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 12:55:52,851 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 12:55:53,234 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 12:55:54,906 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 12:55:57,308 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 12:55:59,541 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 12:56:01,374 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 12:56:03,783 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 12:56:05,164 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 12:56:06,543 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 12:56:06,686 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-25 12:59:06,802 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 13:01:51,954 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 13:01:52,675 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 13:01:57,041 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 13:01:57,470 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 13:01:57,598 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 13:01:57,974 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 13:01:59,685 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 13:01:59,918 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 13:02:01,270 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 13:02:01,957 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 13:02:02,747 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 13:02:03,560 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 13:02:03,798 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-25 13:12:20,268 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 13:14:33,226 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 13:14:33,679 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 13:15:10,349 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 13:15:10,593 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 13:15:10,709 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 13:15:10,855 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 13:15:11,933 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 13:15:12,080 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 13:15:12,906 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 13:15:13,250 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 13:15:13,963 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 13:15:18,190 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 13:15:27,789 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-25 13:15:28,835 INFO  [E-CommerceAutomationProject] - shipping methode choose is clicked
+2024-10-25 13:24:25,436 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 13:25:37,680 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 13:25:38,262 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 13:25:39,320 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 13:25:39,499 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 13:25:39,624 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 13:25:39,763 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 13:25:40,746 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 13:25:40,977 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 13:25:41,743 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 13:25:42,062 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 13:25:43,460 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 13:25:53,671 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 13:25:53,823 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-25 13:25:54,828 INFO  [E-CommerceAutomationProject] - shipping methode choose is clicked
+2024-10-25 14:32:24,425 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 14:36:15,045 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 14:36:18,096 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 14:36:21,637 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 14:37:13,120 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 14:37:20,655 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 14:37:21,251 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 14:37:22,888 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 14:37:24,842 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 14:37:25,858 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 14:37:29,330 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 14:37:31,996 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 14:37:33,634 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 14:37:35,231 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 14:39:10,111 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 14:39:12,608 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 14:39:16,469 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 14:47:27,295 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 14:48:19,703 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 14:48:20,961 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 14:48:22,985 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 14:48:25,276 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 14:48:25,453 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 14:48:25,843 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 14:48:29,061 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 14:48:29,499 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 14:48:31,231 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 14:48:36,040 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 14:48:37,199 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 14:48:41,142 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 14:51:53,672 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 14:51:57,701 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 14:52:08,386 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 14:52:52,140 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 14:52:53,026 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 14:52:53,208 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 14:52:53,459 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 14:52:54,852 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 14:52:55,187 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 14:52:56,273 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 14:52:57,101 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 14:52:58,122 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 14:52:59,087 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 14:54:46,990 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 14:54:52,210 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 14:54:57,092 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 14:55:15,405 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 14:55:17,001 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 14:55:17,881 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 14:55:19,783 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 14:55:20,328 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 14:55:20,677 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 14:55:23,357 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 14:55:23,762 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 14:55:24,950 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 14:55:26,811 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 15:03:21,945 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 15:03:28,028 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 15:03:39,455 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 15:04:11,782 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 15:04:12,576 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 15:04:12,734 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 15:04:13,299 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 15:04:14,494 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 15:04:18,036 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 15:04:19,465 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 15:04:20,846 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-25 15:04:22,243 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-25 15:04:23,181 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-25 15:04:23,371 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-25 15:07:28,867 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-25 15:07:31,999 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-25 15:07:35,304 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-25 15:08:27,915 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-25 15:08:28,405 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-25 15:08:28,552 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-25 15:08:28,952 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-25 15:08:30,154 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-25 15:08:30,589 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-25 15:08:32,079 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-25 15:08:34,724 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 

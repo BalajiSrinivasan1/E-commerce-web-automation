@@ -14,13 +14,22 @@ public class MyAccountPage
 	   this.driver=driver;
 	   PageFactory.initElements(driver,this);
    }
-   @FindBy(xpath="//div[@class='list-group']//a[text()='Logout']")
+   
+   @FindBy(linkText="Logout")
 	WebElement lnkLogout;
+   
+   @FindBy(linkText="Continue")
+  	WebElement linkContinue;
+   
    
    public void clickLogout()
    {
 	   lnkLogout.click();
 	 
+   }
+   
+   public void clickOnContinue() {
+	   linkContinue.click();
    }
    
 }

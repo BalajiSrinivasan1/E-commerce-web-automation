@@ -7,17 +7,17 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.opencart.testCase.TC_002_Login">
+      <class name="com.opencart.testCase.TC_003_LoginDDT">
         <methods>
-          <include name="test_Login"/>
-          <include name="set"/>
+          <include name="setup"/>
+          <include name="test_LoginDDT" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.opencart.testCase.TC_002_Login -->
+      </class> <!-- com.opencart.testCase.TC_003_LoginDDT -->
       <class name="com.opencart.testCase.TC_001_AccountRegistration">
         <methods>
           <include name="test_account_Registration"/>
-          <include name="set"/>
+          <include name="setup"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.opencart.testCase.TC_001_AccountRegistration -->
