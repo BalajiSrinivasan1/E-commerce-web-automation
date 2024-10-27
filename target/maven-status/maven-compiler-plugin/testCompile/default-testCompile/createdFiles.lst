@@ -1,5 +1,6 @@
 com\opencart\pageObject\AccountRegistrationPage.class
 com\opencart\testCase\TC_006_ProductCompare.class
+com\opencart\utilities\RetryListener.class
 com\opencart\testCase\TC_002_Login.class
 com\opencart\testCase\TC_008_ProductDisplayPage.class
 com\opencart\testCase\TC_010_ShoppingCart.class
@@ -28,6 +29,7 @@ com\opencart\pageObject\ProductCompare.class
 com\opencart\utilities\ExcelUtils.class
 com\opencart\utilities\ReadConfig.class
 com\opencart\testCase\TC_005_Addcart.class
+com\opencart\utilities\RetryAnalyzer.class
 com\opencart\pageObject\AddressBook.class
 com\opencart\testCase\BaseClass.class
 com\opencart\testCase\TC_004Search.class

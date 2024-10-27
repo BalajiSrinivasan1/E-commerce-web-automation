@@ -19,6 +19,7 @@ public class TC_010_ShoppingCart  extends BaseClass
 	
 	   driver.manage().window().maximize();
 	   login();
+          
 	   ShoppingCart sc=new ShoppingCart(driver);
 	   sc.searchtxt("iMac");
 	   logger.info("Search iMac is  Displayed ");
@@ -44,14 +45,15 @@ public class TC_010_ShoppingCart  extends BaseClass
 	 
 	  sc.clickOnShippingMethod();
 	  logger.info("shipping methode choose is clicked");
-       sc.clickOnPaymentMethode();
+         sc.clickOnPaymentMethode();
 	 logger.info("payment methode is choose is clicked");
-      sc.addComment.sendKeys("I order some electronic product");
+
+        sc.addComment.sendKeys("I order some electronic product");
          logger.info("commend is added");
 
 	  sc.confirmOrder.click();
 	  logger.info("confirm order is clicked");
-	  
+	
 	  if(sc.orderMessage.isDisplayed()) {
            logger.info("order is successfull");
 		  Assert.assertTrue(true);
@@ -63,6 +65,8 @@ public class TC_010_ShoppingCart  extends BaseClass
 		  Assert.assertTrue(false);
 		 
 	  }
+   
+          logout();
 	    
 
 	  

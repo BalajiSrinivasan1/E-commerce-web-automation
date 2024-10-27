@@ -27,6 +27,7 @@ import org.testng.annotations.Parameters;
 import com.opencart.pageObject.HomePage;
 import com.opencart.pageObject.LoginPage;
 import com.opencart.utilities.ReadConfig;
+import com.opencart.pageObject.MyAccountPage;
 
 
 public class BaseClass {
@@ -75,7 +76,7 @@ public void set() {
 
 @AfterClass
 public void tearDown() {
-	driver.quit();
+	//driver.quit();
 }
 
 public void login() {
@@ -116,7 +117,12 @@ public void login() {
 	}
 }	
 
+public void logout(){
+   MyAccountPage myaccpage=new MyAccountPage(driver);
+   myaccpage.clickLogout();
+   myaccpage.clickOnContinue();
 
+}
 
 
 public void elementToVisibleAndHover(WebElement ele) {

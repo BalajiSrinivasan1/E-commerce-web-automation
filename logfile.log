@@ -2067,3 +2067,355 @@ Session ID: a74935a692dd52a69391d0e9ceab08e2
 2024-10-25 15:08:30,589 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
 2024-10-25 15:08:32,079 INFO  [E-CommerceAutomationProject] - Search Button clicked 
 2024-10-25 15:08:34,724 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 19:54:59,725 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-26 19:55:15,624 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 19:55:20,167 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 19:55:37,269 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 19:55:37,919 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 19:55:38,077 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 19:55:38,372 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 19:55:48,926 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 19:56:05,449 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-26 19:56:05,510 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-26 19:56:46,309 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 19:56:46,504 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 19:56:48,325 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 19:56:48,877 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 19:56:48,993 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 19:56:49,396 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 19:57:06,562 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 19:58:30,001 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-26 19:58:30,020 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-26 19:58:32,288 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 19:58:32,571 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 19:58:33,586 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 19:58:33,777 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 19:58:33,905 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 19:58:34,015 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 19:58:59,055 INFO  [E-CommerceAutomationProject] - Login Failed wrong credential but test case is passed
+2024-10-26 19:58:59,055 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-26 19:58:59,062 INFO  [E-CommerceAutomationProject] -  Starting TC_003_LoginDDT 
+2024-10-26 19:59:03,753 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 19:59:03,998 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 19:59:09,970 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 19:59:10,178 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 19:59:10,288 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 19:59:10,380 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 19:59:35,403 INFO  [E-CommerceAutomationProject] - Login Failed wrong credential but test case is passed
+2024-10-26 19:59:35,403 INFO  [E-CommerceAutomationProject] -  Finished TC_003_LoginDDT 
+2024-10-26 19:59:54,592 INFO  [E-CommerceAutomationProject] -  Starting TC_004_Search 
+2024-10-26 20:00:06,167 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:00:08,196 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-26 20:00:39,757 ERROR [E-CommerceAutomationProject] - Search Success 
+2024-10-26 20:00:39,757 INFO  [E-CommerceAutomationProject] -  Finished TC_004Search 
+2024-10-26 20:00:53,029 INFO  [E-CommerceAutomationProject] - Starting TC_005_Addcart
+2024-10-26 20:01:19,943 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:01:20,239 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-26 20:03:27,620 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-26 20:03:28,558 INFO  [E-CommerceAutomationProject] - product added to cart
+2024-10-26 20:03:31,529 INFO  [E-CommerceAutomationProject] - Add to cart is succussfull
+2024-10-26 20:03:31,594 INFO  [E-CommerceAutomationProject] - Finished TC_005_Addcart
+2024-10-26 20:04:30,840 INFO  [E-CommerceAutomationProject] - Strating TC_006_ProductCompare
+2024-10-26 20:04:41,102 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:05:17,936 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-26 20:05:17,936 INFO  [E-CommerceAutomationProject] - product displayed on HomePage
+2024-10-26 20:05:18,999 INFO  [E-CommerceAutomationProject] -  add to products comparing
+2024-10-26 20:06:13,902 INFO  [E-CommerceAutomationProject] - click on product comparing
+2024-10-26 20:06:14,072 INFO  [E-CommerceAutomationProject] - product comparing is success
+2024-10-26 20:06:14,072 INFO  [E-CommerceAutomationProject] - Finesg TC_006_ProductCompare
+2024-10-26 20:07:26,291 INFO  [E-CommerceAutomationProject] - Starting TC_007_WishList
+2024-10-26 20:07:37,528 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:07:38,598 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-26 20:08:03,299 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 20:08:12,837 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 20:08:17,430 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 20:08:17,578 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 20:08:17,831 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 20:08:37,608 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 20:08:39,495 ERROR [E-CommerceAutomationProject] - wishList is Success 
+2024-10-26 20:08:39,565 INFO  [E-CommerceAutomationProject] -  Finished TC_007_WishList 
+2024-10-26 20:08:57,033 INFO  [E-CommerceAutomationProject] - Starting TC_008_ProductDisplayPage
+2024-10-26 20:10:04,689 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:10:04,997 INFO  [E-CommerceAutomationProject] - Enter any Product
+2024-10-26 20:10:16,845 INFO  [E-CommerceAutomationProject] - click the search button
+2024-10-26 20:10:20,897 INFO  [E-CommerceAutomationProject] - click the image
+2024-10-26 20:10:23,036 INFO  [E-CommerceAutomationProject] - click the Product
+2024-10-26 20:10:23,217 INFO  [E-CommerceAutomationProject] - click the Product Review
+2024-10-26 20:10:23,349 INFO  [E-CommerceAutomationProject] - ProductDisplayPage  success 
+2024-10-26 20:10:23,350 INFO  [E-CommerceAutomationProject] -  Finished TC_008_ProductDisplayPage
+2024-10-26 20:10:29,212 INFO  [E-CommerceAutomationProject] - Starting TC_009_ForgotPassword
+2024-10-26 20:10:36,392 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:10:36,693 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 20:10:44,321 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 20:10:44,505 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 20:10:44,759 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 20:10:46,881 INFO  [E-CommerceAutomationProject] - Provided confirmation email
+2024-10-26 20:10:55,839 INFO  [E-CommerceAutomationProject] - forget password is successfull
+2024-10-26 20:10:55,840 INFO  [E-CommerceAutomationProject] - Finished TC_009_ForgotPassword
+2024-10-26 20:11:00,483 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 20:11:16,195 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:11:28,038 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 20:12:57,934 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 20:13:10,342 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:13:12,672 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 20:13:16,768 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 20:13:22,573 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 20:13:25,772 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 20:13:33,601 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 20:13:33,645 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 20:13:38,848 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 20:13:44,488 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 20:13:46,872 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 20:13:51,301 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 20:13:53,666 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 20:13:56,077 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-26 20:14:02,215 INFO  [E-CommerceAutomationProject] - shipping methode choose is clicked
+2024-10-26 20:14:03,526 INFO  [E-CommerceAutomationProject] - payment methode is choose is clicked
+2024-10-26 20:14:03,634 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 20:14:04,743 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:14:04,987 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 20:16:14,070 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 20:16:14,262 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 20:16:14,399 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 20:16:14,513 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 20:16:17,386 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 20:16:17,485 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 20:16:18,381 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 20:16:18,532 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 20:16:19,840 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 20:16:22,688 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 20:16:22,781 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-26 20:16:26,725 INFO  [E-CommerceAutomationProject] - shipping methode choose is clicked
+2024-10-26 20:16:30,571 INFO  [E-CommerceAutomationProject] - payment methode is choose is clicked
+2024-10-26 20:16:30,685 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 20:16:31,880 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:16:32,047 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 20:51:00,302 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 20:51:14,896 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:51:17,017 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 20:51:19,452 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 20:51:20,514 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 20:51:21,193 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 20:51:21,923 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 20:51:47,046 ERROR [E-CommerceAutomationProject] - Login is Failed 
+2024-10-26 20:54:57,491 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 20:57:34,005 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 20:57:34,696 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 20:57:47,153 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 20:57:47,522 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 20:57:47,689 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 20:57:47,828 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 20:58:12,875 ERROR [E-CommerceAutomationProject] - Login is Failed 
+2024-10-26 21:07:59,622 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:08:20,957 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:08:22,030 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:08:58,583 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:08:58,932 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:08:59,084 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:08:59,339 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:09:24,384 ERROR [E-CommerceAutomationProject] - Login is Failed 
+2024-10-26 21:11:14,523 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:11:28,867 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:11:32,683 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:11:38,906 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:11:39,830 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:11:40,019 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:11:40,293 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:11:55,365 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:11:55,798 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:11:56,907 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:11:57,502 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:11:59,164 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:12:01,159 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:12:01,405 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-26 21:15:53,692 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:16:12,116 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:16:13,122 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:16:37,675 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:16:38,353 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:16:38,591 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:16:38,782 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:17:03,844 ERROR [E-CommerceAutomationProject] - Login is Failed 
+2024-10-26 21:18:25,624 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:18:44,830 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:19:15,547 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:19:40,697 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:19:41,055 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:19:41,193 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:19:41,411 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:19:43,953 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:19:44,180 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:19:46,832 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:19:47,508 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:19:49,512 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:19:51,554 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:19:51,720 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-26 21:19:51,998 INFO  [E-CommerceAutomationProject] - shipping methode choose is clicked
+2024-10-26 21:19:51,998 INFO  [E-CommerceAutomationProject] - payment methode is choose is clicked
+2024-10-26 21:19:52,270 INFO  [E-CommerceAutomationProject] - commend is added
+2024-10-26 21:24:14,763 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:24:53,021 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:24:54,047 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:24:56,817 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:24:57,090 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:24:57,243 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:24:57,374 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:24:59,879 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:25:00,220 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:25:01,190 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:25:02,004 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:25:04,528 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:25:25,048 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:25:25,200 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-26 21:25:26,392 INFO  [E-CommerceAutomationProject] - shipping methode choose is clicked
+2024-10-26 21:25:27,303 INFO  [E-CommerceAutomationProject] - payment methode is choose is clicked
+2024-10-26 21:25:27,438 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:25:29,196 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:25:45,521 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:26:42,328 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:26:42,571 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:26:42,740 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:26:42,869 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:26:44,908 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:26:45,062 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:26:46,329 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:26:46,674 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:26:47,619 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:26:49,598 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:27:14,683 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:27:28,585 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:27:28,827 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:27:34,830 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:27:35,078 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:27:35,215 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:27:35,329 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:27:36,744 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:27:36,880 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:27:38,007 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:27:38,450 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:27:39,421 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:27:41,648 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:28:06,674 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:28:27,707 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:28:28,126 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:29:00,066 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:29:00,351 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:29:00,506 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:29:00,619 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:29:25,636 ERROR [E-CommerceAutomationProject] - Login is Failed 
+2024-10-26 21:31:40,250 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:32:22,768 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:32:32,223 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:32:42,442 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:32:42,741 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:32:42,928 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:32:43,536 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:32:55,993 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:32:56,327 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:32:58,182 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:32:58,559 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:32:59,388 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:33:00,893 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:34:32,123 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:34:41,121 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:34:50,590 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:34:54,854 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:34:57,305 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:34:57,522 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:34:57,965 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:34:59,142 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:34:59,523 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:35:03,310 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:35:05,116 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:35:06,263 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:35:07,162 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:38:59,792 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:39:06,165 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:39:12,070 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:39:52,166 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:39:52,399 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:39:52,582 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:39:52,707 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:39:56,571 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:39:56,743 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:39:59,765 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:40:00,143 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:40:02,426 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:40:03,218 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:42:12,792 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:49:15,813 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:49:28,943 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:49:31,108 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:49:39,901 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:50:00,825 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:50:00,988 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:50:02,883 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:50:02,963 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:50:03,651 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:50:05,274 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:50:06,218 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:50:07,728 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:50:11,329 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:50:11,476 INFO  [E-CommerceAutomationProject] - Address drop down is clicked
+2024-10-26 21:51:32,720 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:51:49,564 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:51:55,293 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:51:58,924 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:51:59,421 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:51:59,823 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:52:00,053 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:52:18,421 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:52:18,686 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:52:21,763 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:54:23,730 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:54:53,553 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:54:55,260 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:54:57,560 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:54:57,870 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:54:58,072 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:54:58,362 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:55:03,588 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:55:04,274 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:55:05,572 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:55:06,361 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:55:10,211 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:55:11,286 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 21:56:55,223 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 21:57:10,621 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 21:57:13,822 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 21:58:32,339 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 21:58:47,913 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 21:58:48,070 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 21:58:48,231 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 21:58:50,870 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 21:58:51,144 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 21:58:52,431 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 21:58:52,801 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 21:58:53,674 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 21:58:54,571 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-26 22:08:35,261 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-26 22:08:39,854 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-26 22:08:49,366 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-26 22:09:39,248 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-26 22:09:41,599 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-26 22:09:41,740 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-26 22:09:42,114 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-26 22:09:44,580 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-26 22:09:44,965 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-26 22:09:46,150 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-26 22:09:46,885 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-26 22:09:47,808 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-26 22:09:48,804 INFO  [E-CommerceAutomationProject] - check out is clicked
+2024-10-27 17:15:09,906 INFO  [E-CommerceAutomationProject] - Starting TC_010_ShoppingCart
+2024-10-27 17:15:18,814 INFO  [E-CommerceAutomationProject] - Home Page Displayed 
+2024-10-27 17:15:23,665 INFO  [E-CommerceAutomationProject] - Clicked on My Account 
+2024-10-27 17:15:26,282 INFO  [E-CommerceAutomationProject] - Clicked on Login 
+2024-10-27 17:15:27,371 INFO  [E-CommerceAutomationProject] - Provided Email 
+2024-10-27 17:15:27,763 INFO  [E-CommerceAutomationProject] - Provided Password 
+2024-10-27 17:15:28,693 INFO  [E-CommerceAutomationProject] - Clicked on Login
+2024-10-27 17:15:29,912 INFO  [E-CommerceAutomationProject] - Login Success 
+2024-10-27 17:15:30,086 INFO  [E-CommerceAutomationProject] - Search iMac is  Displayed 
+2024-10-27 17:15:31,309 INFO  [E-CommerceAutomationProject] - Search Button clicked 
+2024-10-27 17:15:32,518 INFO  [E-CommerceAutomationProject] - Add to Cart clicked 
+2024-10-27 17:15:33,736 INFO  [E-CommerceAutomationProject] - Shopping Cart clicked 
+2024-10-27 17:15:35,273 INFO  [E-CommerceAutomationProject] - check out is clicked

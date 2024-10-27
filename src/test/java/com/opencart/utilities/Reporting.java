@@ -47,7 +47,7 @@ public class Reporting implements ITestListener{
 			extent.setSystemInfo("User Name", System.getProperty("user.name"));
 			extent.setSystemInfo("browser name", "chrome");
 			extent.setSystemInfo("Environemnt","QA");
-			extent.setSystemInfo("user","kween");
+			extent.setSystemInfo("user","balaji");
 		  }
 	 public void onTestSuccess(ITestResult result) {
 		 test=extent.createTest(result.getName());
